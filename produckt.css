@@ -1,0 +1,176 @@
+@font-face {
+  font-family: "Calibri_Regular";
+  src: url("other/Calibri_Regular.ttf");
+}
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+body {
+  font-family: "Calibri_Regular";
+  background-color: #B3B1B1;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.sections, main .container .fourth, main .container .third, main .container .second, main .container .first {
+  display: grid;
+  grid-template-columns: 6% 17% 75% 2%;
+  margin: 0 auto;
+  border: 4px solid #EDAC3E;
+  border-radius: 30px;
+  width: 95%;
+}
+.sections img, main .container .fourth img, main .container .third img, main .container .second img, main .container .first img {
+  height: 35vh;
+  margin: 0 auto;
+}
+.sections .card, main .container .fourth .card, main .container .third .card, main .container .second .card, main .container .first .card {
+  margin: 0 auto;
+}
+.sections .card p, main .container .fourth .card p, main .container .third .card p, main .container .second .card p, main .container .first .card p {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 3.6vh;
+}
+
+header .menu-background {
+  background-color: #EDAC3E;
+}
+header .logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 16vh;
+}
+header .logo .cam {
+  margin-left: 0;
+}
+header .logo img {
+  width: 77px;
+  height: 57px;
+}
+header .logo .loop {
+  width: 30px;
+  height: 30px;
+  margin-right: 5%;
+}
+header .logo .search {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: rgba(224, 224, 224, 0.5);
+  height: 6vh;
+  width: 40vw;
+  border-radius: 30px;
+}
+header .logo .number {
+  text-indent: 2em;
+  font-size: 3vh;
+}
+header .logo .tel {
+  width: 5vw;
+  height: 6vh;
+}
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 8.6vh;
+  background-color: #D9D9D9;
+}
+header nav .fon {
+  background-color: #EDAC3E;
+  border-radius: 30px;
+  width: 120%;
+  margin-left: -10px;
+  height: 100%;
+  text-align: center;
+}
+header nav p {
+  font-size: 3.6vh;
+  text-indent: center;
+}
+header nav .underline {
+  text-decoration: none;
+  color: black;
+}
+
+main .container {
+  background-color: white;
+  display: grid;
+  grid-template-rows: 2px 1fr 1fr 1fr 1fr 120px;
+  grid-gap: 2%;
+}
+main ul {
+  text-align: left;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+main ul li {
+  font-size: 2.5vh;
+  list-style-type: none;
+}
+main .line {
+  display: block;
+  background-color: black;
+  height: 3px;
+  margin-top: 10px;
+  margin-right: 2%;
+  width: 100%;
+}
+main .little {
+  font-size: 2.5vh;
+}
+
+footer {
+  background-color: #FFFFFF;
+  box-shadow: 0px 5px 5px grey;
+}
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #FFFFFF;
+  align-items: center;
+}
+footer .container .networks .badge img {
+  width: 60px;
+  height: 60px;
+}
+footer .container .networks .badge .size {
+  width: 67px;
+  height: 67px;
+}
+footer .container P {
+  font-size: 2.6vh;
+}
+footer .container .advice {
+  margin-left: -10%;
+  text-align: center;
+}
+footer .container .advice button {
+  margin-top: 10px;
+  background-color: #EDAC3E;
+  width: 100%;
+  height: 50px;
+  border-radius: 30px;
+}
+
+underground {
+  background-color: #B3B1B1;
+}
+underground img {
+  display: block;
+  margin: 0 auto;
+  width: 20%;
+  height: 20%;
+}
+underground p {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+}

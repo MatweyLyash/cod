@@ -1,0 +1,322 @@
+@font-face {
+  font-family: "Calibri_Regular";
+  src: url("other/Calibri_Regular.ttf");
+}
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+body {
+  font-family: "Calibri_Regular";
+  background-color: #B3B1B1;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+header .menu-background {
+  background-color: #EDAC3E;
+}
+header .logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 16vh;
+}
+header .logo .cam {
+  margin-left: 0;
+}
+header .logo img {
+  width: 77px;
+  height: 57px;
+}
+header .logo .loop {
+  width: 30px;
+  height: 30px;
+  margin-right: 5%;
+}
+header .logo .search {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: rgba(224, 224, 224, 0.5);
+  height: 6vh;
+  width: 40vw;
+  border-radius: 30px;
+}
+header .logo .number {
+  text-indent: 2em;
+  font-size: 3vh;
+}
+header .logo .tel {
+  width: 5vw;
+  height: 6vh;
+}
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 8.6vh;
+  background-color: #D9D9D9;
+}
+header nav p {
+  font-size: 3.6vh;
+  text-indent: center;
+}
+header nav .underline {
+  text-decoration: none;
+  color: black;
+}
+
+.slader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url(images/image_2023-02-25_23-06-35\ 1.png);
+  background-size: cover;
+  width: 79.1vw;
+  height: 65vh;
+}
+.slader p {
+  color: white;
+  font-size: 12vh;
+  text-align: center;
+  align-items: center;
+}
+
+main {
+  height: 100%;
+}
+main .container {
+  background-color: #D9D9D9;
+}
+main .container .info {
+  width: 90%;
+  margin: 0 auto;
+  align-items: center;
+  padding-top: 26px;
+  padding-bottom: 26px;
+}
+main .container .info p {
+  font-size: 7.1vh;
+  color: #EDAC3E;
+  text-align: center;
+  background-color: white;
+  border-radius: 30px;
+  border: 5px solid #EDAC3E;
+}
+main .container .net {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-template-rows: 100%;
+  height: 540px;
+}
+main .container .net .sony {
+  border-radius: 30px;
+  border: 5px solid #EDAC3E;
+  width: 90%;
+  height: 500px;
+  margin-left: 3%;
+}
+main .container .net .special {
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: 20px 1fr 1fr 1fr 20px;
+  grid-row-gap: 2.33%;
+  background-color: white;
+  border: 5px solid #EDAC3E;
+  border-radius: 30px;
+  margin-right: 3%;
+  height: 500px;
+}
+main .container .net .special .top {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  margin: auto;
+  width: 90%;
+  height: 100%;
+  box-shadow: 0px 5px 5px grey;
+  border-radius: 30px;
+}
+main .container .net .special .top img {
+  margin: auto;
+  margin-left: 14.4px;
+  height: 80%;
+  width: 90%;
+}
+main .container .net .special .top .cost {
+  justify-self: center;
+  align-self: center;
+  height: auto;
+}
+main .container .net .special .top .cost p {
+  white-space: nowrap;
+  font-size: 24px;
+  margin-top: 5px;
+  text-align: center;
+}
+main .container .net .special .top .cost .line {
+  display: block;
+  background-color: black;
+  height: 3px;
+  margin-top: 30px;
+  width: 100%;
+}
+main .container .net .special .top .cost p {
+  height: 4vh;
+}
+main .container .net .special .top .cost p .little {
+  font-size: 2.5vh;
+}
+main .container .net .special .middle {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  margin: auto;
+  width: 90%;
+  height: 100%;
+  box-shadow: 0px 5px 5px grey;
+  border-radius: 30px;
+}
+main .container .net .special .middle img {
+  width: 130px;
+  height: 130px;
+  border-radius: 30px;
+  margin: auto;
+}
+main .container .net .special .middle .cost {
+  text-align: center;
+  margin: auto;
+}
+main .container .net .special .middle .cost p {
+  white-space: nowrap;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 5px;
+}
+main .container .net .special .middle .cost .line {
+  display: block;
+  background-color: black;
+  height: 3px;
+  margin-top: 30px;
+  margin-right: 2%;
+  width: 100%;
+}
+main .container .net .special .middle .cost p {
+  height: 4vh;
+}
+main .container .net .special .middle .cost p .little {
+  font-size: 2.5vh;
+}
+main .container .net .special .down {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  margin: auto;
+  width: 90%;
+  height: 100%;
+  box-shadow: 0px 5px 5px grey;
+  border-radius: 30px;
+}
+main .container .net .special .down img {
+  width: 150px;
+  height: 150px;
+  border-radius: 30px;
+  margin: auto;
+}
+main .container .net .special .down .cost {
+  text-align: center;
+  margin: auto;
+}
+main .container .net .special .down .cost p {
+  white-space: nowrap;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 5px;
+}
+main .container .net .special .down .cost .line {
+  display: block;
+  background-color: black;
+  height: 3px;
+  margin-top: 30px;
+  margin-right: 50%;
+  width: 100%;
+}
+main .container .net .special .down .cost p {
+  height: 4vh;
+}
+main .container .net .special .down .cost p .little {
+  font-size: 2.5vh;
+}
+
+.description .container {
+  background-color: #FFFFFF;
+}
+.description .container p {
+  padding-top: 40px;
+  text-align: center;
+  color: #EDAC3E;
+  font-size: 4vh;
+}
+.description .container .words {
+  display: grid;
+  grid-template-columns: 57% 38%;
+}
+.description .container .words p {
+  width: 90%;
+  margin: 0 auto;
+  line-height: 4vh;
+  color: black;
+  font-size: 2.6vh;
+  text-align: left;
+  padding-bottom: 40px;
+}
+
+footer {
+  background-color: #FFFFFF;
+  box-shadow: 0px 5px 5px grey;
+}
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #FFFFFF;
+  align-items: center;
+}
+footer .container .networks .badge img {
+  width: 60px;
+  height: 60px;
+}
+footer .container .networks .badge .size {
+  width: 67px;
+  height: 67px;
+}
+footer .container P {
+  font-size: 2.6vh;
+}
+footer .container .advice {
+  margin-left: -10%;
+  text-align: center;
+}
+footer .container .advice button {
+  margin-top: 10px;
+  background-color: #EDAC3E;
+  width: 100%;
+  height: 50px;
+  border-radius: 30px;
+}
+
+underground {
+  background-color: #B3B1B1;
+}
+underground img {
+  display: block;
+  margin: 0 auto;
+  width: 20%;
+  height: 20%;
+}
+underground p {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+}
