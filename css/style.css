@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Calibri_Regular";
-  src: url("other/Calibri_Regular.ttf");
+  src: url("../other/Calibri_Regular.ttf");
 }
 * {
   padding: 0;
@@ -71,12 +71,16 @@ header nav .underline {
   text-decoration: none;
   color: black;
 }
+header nav a:hover {
+  transition: all 0.3s ease 0s;
+  text-decoration: underline;
+}
 
 .slader {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: url(images/image_2023-02-25_23-06-35\ 1.png);
+  background-image: url(../images/image_2023-02-25_23-06-35\ 1.png);
   background-size: cover;
   width: 79.1vw;
   height: 65vh;
