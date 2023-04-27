@@ -1,0 +1,75 @@
+<tripod>
+<img>
+..images/stativ.jpg
+</img>
+<name>Штатив Yunteng VCT-690RM</name>
+<cost>179<little>руб.</little> 00<little>коп.</little></cost>
+<ul>
+<li>
+для фотоаппаратов, видеокамер большого веса
+</li>
+<li>
+3D головка с пузырьковым уровнем
+</li>
+<li>
+угол поворота 360⁰
+</li>
+</ul>
+</tripod>
+
+<stand>
+<img>
+..images/stoika.jpg
+</img>
+<name>Стойка микрофонная Bespeco MSRA10</name>
+<cost>210<little>руб.</little> 00<little>коп.</little></cost>
+<ul>
+<li>
+максимальная высота 100см
+</li>
+<li>
+устройчивость к высоким нагрузкам
+</li>
+<li>
+5-метровый XLR кабель в комплекте
+</li>
+</ul>
+</stand>
+
+<napkin>
+<img>
+..images/salfetka.jpg
+</img>
+<name>Салфетка из микрофибры Fujimi</name>
+<cost>6<little>руб.</little> 00<little>коп.</little></cost>
+<ul>
+<li>
+большой размер 10x10см
+</li>
+<li>
+устойчива к мытью в стиральной машине
+</li>
+<li>
+высококачественная ткань
+</li>
+</ul>
+</napkin>
+
+<bag>
+<img>
+..images/case.jpg
+</img>
+<name>СУМКА ПОЯСНАЯ FOTOKVANT BBN-01 BLUE </name>
+<cost>60<little>руб.</little> 00<little>коп.</little></cost>
+<ul>
+<li>
+предусмотрена ручка и наплечный ремень
+</li>
+<li>
+рассчитана на ношение небольшой системной камеры и аксеcсуаров
+</li>
+<li>
+внутри пространство разделено мягкой перегородкой
+</li>
+</ul>
+</bag>

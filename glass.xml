@@ -1,0 +1,79 @@
+<canon>
+<img>
+..images/lins.jpg
+</img>
+<name>Объектив Canon EF 1-35 f/1.4L II USM</name>
+<cost>1500<little>руб.</little> 00<little>коп.</little></cost>
+<ul>
+<li>
+ультразвуковой привод автофокусировки
+</li>
+<li>
+насыщенный комплекс поставки
+</li>
+<li>
+минимальная дистанция фокусировки составляет 0.28м
+</li>
+</ul>
+</canon>
+
+<tamron>
+<img>
+..images/tamron28.jpg
+</img>
+<name>ОБЪЕКТИВ TAMRON 28-200MM F/2.8-5.6 DI III RXD </name>
+<cost>2399<little>руб.</little> 00<little>коп.</little></cost>
+<ul>
+<li>
+7 лепестков диафрагмы
+</li>
+<li>
+для использования с цифровыми беззеркальными фотоаппаратами
+</li>
+<li>
+система фокусировки с редукторным мотором
+</li>
+</ul>
+</tamron>
+
+<tokina>
+<img>
+..images/tokina.png
+</img>
+<name>ОБЪЕКТИВ TOKINA OPERA 50MM F1.4 FF AF</name>
+<cost>4249<little>руб.</little> 00<little>коп.</little></cost>
+<ul>
+<li>
+автоматический режим фокусировки
+</li>
+<li>
+9 лепестков диафрагмы
+</li>
+<li>
+низкий коэффициент отражаемости
+</li>
+
+</ul>
+</tokina>
+
+<lensbaby>
+<img>
+..images/lensbaby.png
+</img>
+<name>ОБЪЕКТИВ LENSBABY 5.8MM F/3.5 CIRCULAR</name>
+<cost>1243<little>руб.</little> 00<little>коп.</little></cost>
+<ul>
+<li>
+тип объектива - “Рыбий глаз”
+</li>
+<li>
+6 лепестков диафрагмы
+</li>
+<li>
+высокая светосила
+</li>
+
+</ul>
+</lensbaby>
+
+

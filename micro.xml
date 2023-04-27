@@ -1,0 +1,42 @@
+<MEG>
+<img>
+images/14-40.png
+</img>
+<name>Микрофон кардиоидный Sennheiser MEG 14-40</name>
+<cost>1509<little>руб.</little> 00<little>коп.</little></cost>
+<discription>
+кардиоидный микрофон с держателем Gooseneck на базе капсюля KE 10
+защита от воздействия РЧ помех
+обтекаемый дизайн
+</discription>
+</MEG>
+
+
+<845>
+<img>
+
+</img>
+<name>Микрофон динамические Sennheiser E 845-S</name>
+<cost>669<little>руб.</little> 96<little>коп.</little></cost>
+<discription>
+прочный металлический корпус
+бесшумный выключатель с фиксатором
+встроенная катушка подавления электромагнитных помех
+антишоковая подвеска капсюля
+</discription>
+</845>
+
+
+<neumann>
+<img>
+
+</img>
+<name>Микрофон кардиоидный Neumann TLM 102</name>
+<cost>2804<little>руб.</little> 46<little>коп.</little></cost>
+<discription>
+бестрансформаторная схема
+компактный дизайн
+преобразователь градиента давления
+небольшой подъём средних частот выше 6 кГц
+</discription>
+</neumann>
