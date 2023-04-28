@@ -1,0 +1,47 @@
+@media (max-width: 1200px) {
+  .container {
+    width: auto;
+    background-color: none;
+  }
+  .container .logo {
+    background-color: #EDAC3E;
+    height: 10vh;
+  }
+  .container .logo .tel {
+    width: 4vw;
+    height: 5vh;
+  }
+  nav p {
+    font-size: 24px;
+  }
+  footer .container {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+@media (max-width: 768px) {
+  .container .logo {
+    height: 20vh;
+  }
+  .container .logo .cam {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .container .logo .number {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .container .logo .search {
+    width: 100%;
+    -webkit-box-ordinal-group: 5;
+        -ms-flex-order: 4;
+            order: 4;
+  }
+  .container .logo .tel {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+  }
+}

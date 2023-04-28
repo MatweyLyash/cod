@@ -1,0 +1,55 @@
+@media(max-width:1200px)
+{
+    .container
+    {
+        width: auto;
+        background-color: none;
+        .logo
+        {
+        background-color: #EDAC3E;
+        height: 10vh;
+       
+            .tel
+            {   
+                width: 4vw;
+                height: 5vh;
+            }
+       
+        }
+    }
+    nav
+    {
+        p{
+        font-size: 24px;  
+        }
+    }
+    footer
+    {
+        .container
+        {
+        justify-content: space-around;
+        }
+    }
+}
+@media (max-width:768px)
+{
+    .container{
+        .logo{
+            height: 20vh;
+            .cam{
+                order: 1;
+            }
+            .number{
+                order:2;
+            }
+            .search{
+                width: 100%;
+                order: 4;
+            }
+            .tel{
+                order: 3;
+            }
+        }
+    }
+    
+}

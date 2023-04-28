@@ -19,7 +19,9 @@ body {
 }
 
 .sections, main .container .fourth, main .container .third, main .container .second, main .container .first {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 6% 17% 75% 2%;
   grid-template-columns: 6% 17% 75% 2%;
   margin: 0 auto;
   border: 4px solid #EDAC3E;
@@ -43,9 +45,15 @@ header .menu-background {
   background-color: #EDAC3E;
 }
 header .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 16vh;
 }
 header .logo .cam {
@@ -61,9 +69,15 @@ header .logo .loop {
   margin-right: 5%;
 }
 header .logo .search {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: rgba(224, 224, 224, 0.5);
   height: 6vh;
   width: 40vw;
@@ -78,9 +92,14 @@ header .logo .tel {
   height: 6vh;
 }
 header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 8.6vh;
   background-color: #D9D9D9;
 }
@@ -103,7 +122,9 @@ header nav .underline {
 
 main .container {
   background-color: white;
+  display: -ms-grid;
   display: grid;
+  -ms-grid-rows: 2px 2% 1fr 2% 1fr 2% 1fr 2% 1fr 2% 120px;
   grid-template-rows: 2px 1fr 1fr 1fr 1fr 120px;
   grid-gap: 2%;
 }
@@ -130,13 +151,20 @@ main .little {
 
 footer {
   background-color: #FFFFFF;
-  box-shadow: 0px 5px 5px grey;
+  -webkit-box-shadow: 0px 5px 5px grey;
+          box-shadow: 0px 5px 5px grey;
 }
 footer .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   background-color: #FFFFFF;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 footer .container .networks .badge img {
   width: 60px;

@@ -15,16 +15,24 @@ body {
 
 .container {
   margin: 0 auto;
-  width: 80%;
+  width: 1200px;
 }
 
 header .menu-background {
   background-color: #EDAC3E;
+  width: 100%;
 }
 header .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 16vh;
 }
 header .logo .cam {
@@ -40,52 +48,91 @@ header .logo .loop {
   margin-right: 5%;
 }
 header .logo .search {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: rgba(224, 224, 224, 0.5);
   height: 6vh;
-  width: 40vw;
+  width: 40%;
   border-radius: 30px;
 }
 header .logo .number {
-  text-indent: 2em;
   font-size: 3vh;
+  text-decoration: none;
+  color: black;
 }
 header .logo .tel {
   width: 5vw;
   height: 6vh;
 }
-header nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 8.6vh;
+header .header-menu {
   background-color: #D9D9D9;
+  padding: 15px;
 }
-header nav p {
-  font-size: 3.6vh;
-  text-indent: center;
+header .header-menu nav .menu__icon {
+  display: none;
 }
-header nav .underline {
+header .header-menu nav .menu__body {
+  width: 100%;
+}
+header .header-menu nav .menu__body .menu__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+header .header-menu nav .menu__body .menu__list .menu__link {
+  display: block;
+  padding: 3px 10px;
   text-decoration: none;
   color: black;
+  font-size: 32px;
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+header .header-menu nav .menu__body .menu__list .menu__link:hover {
+  background-color: #EDAC3E;
+  border-radius: 30px;
 }
 
 .slader {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-image: url(../images/image_2023-02-25_23-06-35\ 1.png);
   background-size: cover;
   width: 100%;
-  height: 78vh;
+  height: 40em;
 }
 .slader p {
   color: white;
   font-size: 12vh;
   text-align: center;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 main {
@@ -97,7 +144,9 @@ main .container {
 main .container .info {
   width: 90%;
   margin: 0 auto;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding-top: 2%;
   padding-bottom: 2%;
 }
@@ -110,10 +159,21 @@ main .container .info p {
   border: 5px solid #EDAC3E;
 }
 main .container .net {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 60% 40%;
   grid-template-columns: 60% 40%;
+  -ms-grid-rows: 100%;
   grid-template-rows: 100%;
   height: 100%;
+}
+main .container .net > *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}
+main .container .net > *:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
 }
 main .container .net .sony {
   border-radius: 30px;
@@ -125,7 +185,9 @@ main .container .net .sony {
 main .container .net .special {
   height: 90%;
   margin: 0 auto;
+  display: -ms-grid;
   display: grid;
+  -ms-grid-rows: 1fr 2.33% 1fr 2.33% 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   grid-gap: 2.33%;
   background-color: white;
@@ -135,13 +197,16 @@ main .container .net .special {
   margin-bottom: 3%;
 }
 main .container .net .special .top {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 40% 60%;
   grid-template-columns: 40% 60%;
   margin: auto;
   margin-top: 3%;
   width: 90%;
   height: 90%;
-  box-shadow: 0px 5px 5px grey;
+  -webkit-box-shadow: 0px 5px 5px grey;
+          box-shadow: 0px 5px 5px grey;
   border-radius: 30px;
 }
 main .container .net .special .top img {
@@ -151,8 +216,11 @@ main .container .net .special .top img {
   width: 90%;
 }
 main .container .net .special .top .cost {
-  justify-self: center;
-  align-self: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
   height: auto;
 }
 main .container .net .special .top .cost p {
@@ -165,22 +233,25 @@ main .container .net .special .top .cost .line {
   display: block;
   background-color: black;
   height: 3px;
-  margin-top: 30px;
+  margin-top: 20%;
   width: 100%;
 }
 main .container .net .special .top .cost p {
-  height: 4vh;
+  height: 1.3em;
 }
 main .container .net .special .top .cost p .little {
-  font-size: 2.5vh;
+  font-size: 20px;
 }
 main .container .net .special .middle {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 40% 60%;
   grid-template-columns: 40% 60%;
   margin: auto;
   width: 90%;
   height: 90%;
-  box-shadow: 0px 5px 5px 0px grey;
+  -webkit-box-shadow: 0px 5px 5px 0px grey;
+          box-shadow: 0px 5px 5px 0px grey;
   border-radius: 30px;
 }
 main .container .net .special .middle img {
@@ -195,32 +266,35 @@ main .container .net .special .middle .cost {
 }
 main .container .net .special .middle .cost p {
   white-space: nowrap;
-  font-size: 24px;
   text-align: center;
+  font-size: 24px;
   margin-top: 5px;
 }
 main .container .net .special .middle .cost .line {
   display: block;
   background-color: black;
   height: 3px;
-  margin-top: 30px;
+  margin-top: 13%;
   margin-right: 2%;
   width: 100%;
 }
 main .container .net .special .middle .cost p {
-  height: 4vh;
+  height: 1.3em;
 }
 main .container .net .special .middle .cost p .little {
-  font-size: 2.5vh;
+  font-size: 20px;
 }
 main .container .net .special .down {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 40% 60%;
   grid-template-columns: 40% 60%;
   margin: auto;
   margin-bottom: 3%;
   width: 90%;
   height: 90%;
-  box-shadow: 0px 5px 5px grey;
+  -webkit-box-shadow: 0px 5px 5px grey;
+          box-shadow: 0px 5px 5px grey;
   border-radius: 30px;
 }
 main .container .net .special .down img {
@@ -242,15 +316,15 @@ main .container .net .special .down .cost .line {
   display: block;
   background-color: black;
   height: 3px;
-  margin-top: 30px;
+  margin-top: 13%;
   margin-right: 50%;
   width: 100%;
 }
 main .container .net .special .down .cost p {
-  height: 4vh;
+  height: 1.3em;
 }
 main .container .net .special .down .cost p .little {
-  font-size: 2.5vh;
+  font-size: 20px;
 }
 
 .description .container {
@@ -263,7 +337,9 @@ main .container .net .special .down .cost p .little {
   font-size: 4vh;
 }
 .description .container .words {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 57% 38%;
   grid-template-columns: 57% 38%;
 }
 .description .container .words p {
@@ -278,13 +354,22 @@ main .container .net .special .down .cost p .little {
 
 footer {
   background-color: #FFFFFF;
-  box-shadow: 0px 5px 5px grey;
+  -webkit-box-shadow: 0px 5px 5px grey;
+          box-shadow: 0px 5px 5px grey;
 }
 footer .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   background-color: #FFFFFF;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 footer .container .networks .badge img {
   width: 60px;
@@ -298,7 +383,6 @@ footer .container P {
   font-size: 2.6vh;
 }
 footer .container .advice {
-  margin-left: -10%;
   text-align: center;
 }
 footer .container .advice button {
@@ -315,7 +399,7 @@ underground {
 underground img {
   display: block;
   margin: 0 auto;
-  width: 20%;
+  width: 30%;
   height: 20%;
 }
 underground p {
