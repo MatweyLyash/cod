@@ -1,5 +1,78 @@
-@media(max-width:1200px)
+
+@media(min-width:1001px) and (max-width:1200px)
 {
+    .container
+        {
+            width: auto;
+            background-color: none;
+        }
+        .header
+        {
+            
+            .menu-background
+            {
+                .logo
+                {
+                background-color: #EDAC3E;
+                height: 10vh;
+        
+                    .tel
+                    {   
+                        width: 4vw;
+                        height: 5vh;
+                    }
+        
+                }
+            }
+        }
+         .header-menu
+        {
+             nav
+            {
+                p
+                {     
+                   font-size: 20px;  
+                }
+            }
+        }
+   
+    }
+   
+    .container
+    {
+        .slader
+        {
+            height: 30em;
+            p{
+                font-size: 96px;
+            }
+        }
+    }
+
+
+   
+    
+    footer
+    {
+        .container
+        {
+        justify-content: space-around;
+        }
+    }
+
+   
+
+@media (max-width:1000px)
+{
+    .container
+    {
+        .slader{
+            height: 25em;
+            P{
+                font-size: 64px;
+            }
+        }
+    }
     .container
     {
         width: auto;
@@ -23,19 +96,52 @@
         font-size: 24px;  
         }
     }
+    main 
+    {
+        .container
+        {
+           
+            .net
+            {
+                flex-flow: column nowrap;
+            
+                    .sony 
+                    {  
+                        
+                        img 
+                        {
+                           
+                            max-height: none;
+                            width: 100%;
+                            margin-bottom: 15px;
+                        }
+                    }   
+                    .special
+                    {
+                        .middle
+                        {
+                            margin-bottom: 0;
+                        }
+                    }      
+                }
+        }
+        
+       
+    }
     footer
     {
         .container
         {
         justify-content: space-around;
         }
-    }
+    }   
 }
-@media (max-width:768px)
+
+@media (max-width:805px)
 {
     .container{
         .logo{
-            height: 20vh;
+            height: 18vh;
             .cam{
                 order: 1;
             }
@@ -43,13 +149,76 @@
                 order:2;
             }
             .search{
-                width: 100%;
+                width: 95%;
                 order: 4;
             }
             .tel{
                 order: 3;
             }
         }
+    }
+    main
+    {
+        .container
+        {
+            .net
+            {
+                .special
+                {
+                    .middle
+                    {
+                       
+                        margin-bottom: 15px;
+                        width: 100%;
+                        .img-container
+                        {
+                            padding-left: 15px;
+                            img
+                            {
+                                height: 120%;
+                                width: 70%;
+                                
+                            }
+                            
+                        }
+                    }
+                    .down
+                    {
+                        width: 100%;
+                        .img-container
+                        {
+                            justify-content: start;
+                            padding-left: 15px;
+                            img
+                            {
+                                height: 63%;
+                                width: 63%;
+                            }
+                        }
+                    }
+                } 
+            }
+             
+        }
+    }
+    
+
+
+    footer{
+        .container
+        {
+            flex-flow: row wrap;
+            .advice{
+                order: 2;
+            }
+            .networks{
+                 order: 1;
+            }
+            .fidio{
+                 order: 3;
+            }
+        }
+       
     }
     
 }

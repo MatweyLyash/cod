@@ -1,4 +1,39 @@
-@media (max-width: 1200px) {
+@media (min-width: 1001px) and (max-width: 1200px) {
+  .container {
+    width: auto;
+    background-color: none;
+  }
+  .header .menu-background .logo {
+    background-color: #EDAC3E;
+    height: 10vh;
+  }
+  .header .menu-background .logo .tel {
+    width: 4vw;
+    height: 5vh;
+  }
+  .header-menu nav p {
+    font-size: 20px;
+  }
+}
+.container .slader {
+  height: 30em;
+}
+.container .slader p {
+  font-size: 96px;
+}
+
+footer .container {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+@media (max-width: 1000px) {
+  .container .slader {
+    height: 25em;
+  }
+  .container .slader P {
+    font-size: 64px;
+  }
   .container {
     width: auto;
     background-color: none;
@@ -14,14 +49,28 @@
   nav p {
     font-size: 24px;
   }
+  main .container .net {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+  main .container .net .sony img {
+    max-height: none;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  main .container .net .special .middle {
+    margin-bottom: 0;
+  }
   footer .container {
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 805px) {
   .container .logo {
-    height: 20vh;
+    height: 18vh;
   }
   .container .logo .cam {
     -webkit-box-ordinal-group: 2;
@@ -34,12 +83,57 @@
             order: 2;
   }
   .container .logo .search {
-    width: 100%;
+    width: 95%;
     -webkit-box-ordinal-group: 5;
         -ms-flex-order: 4;
             order: 4;
   }
   .container .logo .tel {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+  }
+  main .container .net .special .middle {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  main .container .net .special .middle .img-container {
+    padding-left: 15px;
+  }
+  main .container .net .special .middle .img-container img {
+    height: 120%;
+    width: 70%;
+  }
+  main .container .net .special .down {
+    width: 100%;
+  }
+  main .container .net .special .down .img-container {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    padding-left: 15px;
+  }
+  main .container .net .special .down .img-container img {
+    height: 63%;
+    width: 63%;
+  }
+  footer .container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+  }
+  footer .container .advice {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  footer .container .networks {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  footer .container .fidio {
     -webkit-box-ordinal-group: 4;
         -ms-flex-order: 3;
             order: 3;
