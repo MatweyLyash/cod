@@ -15,7 +15,7 @@ body {
 
 .container {
   margin: 0 auto;
-  width: 1200px;
+  width: 80%;
 }
 
 header .menu-background {
@@ -114,42 +114,31 @@ header .header-menu nav .menu__body .menu__list .menu__link:hover {
   border-radius: 30px;
 }
 
-.sections, main .container .fourth, main .container .third, main .container .second, main .container .first {
+.sections, main .ears .first {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 6% 17% 75% 2%;
+  grid-template-columns: 6% 17% 75% 2%;
   margin: 0 auto;
   border: 4px solid #EDAC3E;
   border-radius: 30px;
   width: 95%;
   margin-bottom: 20px;
-  gap: 5%;
 }
-.sections .img-container, main .container .fourth .img-container, main .container .third .img-container, main .container .second .img-container, main .container .first .img-container {
+.sections img, main .ears .first img {
+  height: 35vh;
   margin: 0 auto;
-  padding-left: 20px;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 10%;
-          flex: 1 1 10%;
 }
-.sections .img-container a img, main .container .fourth .img-container a img, main .container .third .img-container a img, main .container .second .img-container a img, main .container .first .img-container a img {
-  display: block;
-  width: 180px;
-  margin-left: 4vw;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-.sections .card, main .container .fourth .card, main .container .third .card, main .container .second .card, main .container .first .card {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 80%;
-          flex: 1 1 80%;
+.sections .card, main .ears .first .card {
   margin: 0 auto;
-  padding-right: 20px;
 }
-.sections .card .name, main .container .fourth .card .name, main .container .third .card .name, main .container .second .card .name, main .container .first .card .name {
+.sections .card p, main .ears .first .card p {
   text-align: center;
   margin-top: 20px;
   font-size: 3.6vh;
 }
 
-main .container {
+main .ears {
   background-color: white;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -161,78 +150,8 @@ main .container {
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
-main .container .first {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+main .ears .first {
   margin-top: 20px;
-}
-main .container .second {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-main .container .second .img-container {
-  margin-left: 4vw;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-main .container .second .img-container img {
-  width: 165px;
-}
-main .container .second .line {
-  width: 99%;
-}
-main .container .third {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-main .container .third .img-container {
-  margin-left: 4vw;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-main .container .third .img-container img {
-  width: 192px;
-}
-main .container .third .line {
-  width: 95%;
-}
-main .container .fourth {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-main .container .fourth .img-container {
-  margin-left: 4vw;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-main .container .fourth .img-container img {
-  width: 225px;
 }
 main ul {
   text-align: left;
@@ -241,22 +160,18 @@ main ul {
 }
 main ul li {
   font-size: 2.5vh;
-  list-style-type: circle;
-  margin-left: 30px;
+  list-style-type: none;
 }
 main .line {
   display: block;
-  margin: 0 auto;
   background-color: black;
   height: 3px;
-  width: 90%;
+  margin-top: 10px;
+  margin-right: 2%;
+  width: 100%;
 }
-main .cost {
-  text-align: center;
-  font-size: 32px;
-}
-main .cost .little {
-  font-size: 20px;
+main .little {
+  font-size: 2.5vh;
 }
 
 footer {
@@ -268,8 +183,6 @@ footer .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;

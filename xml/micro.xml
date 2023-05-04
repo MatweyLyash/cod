@@ -1,42 +1,61 @@
-<MEG>
-<img>
-images/14-40.png
-</img>
+<microfons>
+<micro>
+<img_micro>
+..images/14-40.png
+</img_micro>
 <name>Микрофон кардиоидный Sennheiser MEG 14-40</name>
 <cost>1509<little>руб.</little> 00<little>коп.</little></cost>
-<discription>
+<info1>
 кардиоидный микрофон с держателем Gooseneck на базе капсюля KE 10
+</info1>
+<info2>
 защита от воздействия РЧ помех
+</info2>
+<info3>
 обтекаемый дизайн
-</discription>
-</MEG>
+</info3>
+</micro>
 
 
-<845>
-<img>
+<micro>
+<img_micro>
 
-</img>
+</img_micro>
 <name>Микрофон динамические Sennheiser E 845-S</name>
 <cost>669<little>руб.</little> 96<little>коп.</little></cost>
-<discription>
+<info1>
 прочный металлический корпус
+</info1>
+<info2>
 бесшумный выключатель с фиксатором
+</info2>
+<info3>
 встроенная катушка подавления электромагнитных помех
+</info3>
+<info4>
 антишоковая подвеска капсюля
-</discription>
-</845>
+</info4>
+</micro>
 
 
-<neumann>
-<img>
+<micro>
+<img_micro>
 
-</img>
+</img_micro>
 <name>Микрофон кардиоидный Neumann TLM 102</name>
 <cost>2804<little>руб.</little> 46<little>коп.</little></cost>
-<discription>
+<info1>
 бестрансформаторная схема
+</info1>
+<info2>
 компактный дизайн
+</info2>
+<info3>
 преобразователь градиента давления
+</info3>
+<info4>
 небольшой подъём средних частот выше 6 кГц
-</discription>
-</neumann>
+</info4>
+
+</micro>
+</microfons>

@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <title>Fidio.by</title>
 
 </head>
@@ -38,10 +39,10 @@
 
                                 <img src="images/just_fidio.svg" class="burger-fidio">
                             </div>
-                          
+
                             <li><a href="mictofons.html" class="menu__link">Микрофоны</a></li>
-                            <li><a href="" class="menu__link">Наушники</a></li>
-                            <li><a href="" class="menu__link">Фотокамеры</a></li>
+                            <li><a href="ears.html" class="menu__link">Наушники</a></li>
+                            <li><a href="cams.html" class="menu__link">Фотокамеры</a></li>
                             <li><a href="" class="menu__link">Объективы</a></li>
                             <li><a href="" class="menu__link">Аксессуары</a></li>
                         </ul>
@@ -50,12 +51,43 @@
             </div>
         </div>
     </header>
-    <div class="container">
-        <div class="slader">
-            <p>Наслаждайся<br> музыкой по полной</p>
-        </div>
-    </div>
     <main>
+        <div class="slider-box">
+            <div class="container">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="slide-container-img1">
+                                <img src="../images/slider1.png" alt="">
+                                <p class="text">Наслаждайся<br> музыкой по полной</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slide-container-img2">
+                                <img src="../images/slider2.png" alt="">
+                                <p class="text">Перенесись<br> в другое измерение</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slide-container-img3">
+                                <img src="../images/slider3.png" alt="">
+                                <p class="text">Качество звука,<br> которое ты заслуживаешь</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- <div class="slader">
+            <p>Наслаждайся<br> музыкой по полной</p>
+            Звук, который перенесет тебя в другое измерение
+            Качество звука, которое ты заслуживаешь
+        Сделай свою музыку еще более завораживающей
+        Погрузись в атмосферу звукового наслаждения
+    </div> -->
+
         <div class="container">
             <div class="info">
                 <p>Выгодные предложения</p>
@@ -117,12 +149,14 @@
             <div class="container">
                 <p>Faudio.by — надёжный дистрибьютер аудио- и видеотехники </p>
                 <div class="words">
-                    <div class="left">Наша миссия – дарить людям возможность приобретать аудио- и видеотехнику по низким ценам с
+                    <div class="left">Наша миссия – дарить людям возможность приобретать аудио- и видеотехнику по низким
+                        ценам с
                         качественным обслуживанием и гарантией, потому что мы считаем, что одним из важнейших качеств
                         хорошего магазина является высокий уровень покупательского сервиса.
                         Мы стремимся к тому, чтобы можно было сказать: “Вот это да! Вот это сервис, буду покупать только
                         здесь”.</div>
-                    <div class="right">Вашему выбору предоставлен широкий ассортимент студийного оборудования Bespeco;<br>
+                    <div class="right">Вашему выбору предоставлен широкий ассортимент студийного оборудования
+                        Bespeco;<br>
                         сумки для фото и видео FOTOKVANT;<br>
                         объективы Tamron;<br>
                         объективы Tokina;<br>
@@ -165,6 +199,9 @@
         </div>
     </underground>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 <script src="js/script.js"></script>
+<script src="js/slider.js"></script>
+
 
 </html>

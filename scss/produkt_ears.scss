@@ -18,7 +18,7 @@ body {
 
 .container {
     margin: 0 auto;
-    width: 1200px;
+    width: 80%;
 }
 header {
 	.menu-background {
@@ -121,116 +121,47 @@ header {
 //использование наследования
 .sections
 {
-    
-   
+    display: grid;
+    grid-template-columns:6% 17%  75% 2%;
     margin: 0 auto;
     border: 4px solid #EDAC3E;
     border-radius: 30px;
     width: 95%;
-    margin-bottom: 20px;
-	gap:5%;
-	
-    .img-container{
-		margin: 0 auto;
-		padding-left: 20px;
-		flex: 1 1 10%;
-				a{
-					img{
-						display: block;
-						width: 180px;
-						margin-left: 4vw;
-						padding-top: 10px;
-						padding-bottom: 10px;
-					}
-				}
-				
+	margin-bottom: 20px;
+    img{
+        height: 35vh;
+        margin: 0 auto;
     }
-    .card{
-		flex: 1 1 80%;
-
-		 margin: 0 auto;
-		 padding-right: 20px;
-        .name{
+    .card{ margin: 0 auto;
+        p{
             text-align: center;
-            margin-top: 20px;
+           margin-top: 20px;
             font-size: 3.6vh;
           
         }
-	
     }
 }
 
 main {
-    .container {
-        background-color: white;
+    .ears {
+		background-color: white;
         display: flex;//нужно будте поменять во всех страницах, где есть раскладка товара
         flex-flow: column nowrap;
         justify-content: space-around;
             .first{
-				display: flex;
-				justify-content: space-around;
-				align-items: center;
-				@extend .sections;
 				margin-top: 20px;
-			
-				
+            @extend .sections;
             }
-            .second{
-				display: flex;
-				justify-content: space-between;
-				align-items: center;
-                @extend .sections;
-				
-				.img-container{
-					margin-left: 4vw;
-					padding-top: 10px;
-						padding-bottom: 10px;
-					img{
-						width: 165px;
-						
-					}
-				}
-				.line{
-					width: 99%;
-				}
-				
-
-            }
-            .third{
-				display: flex;
-				justify-content: space-around;
-				align-items: center;
-                @extend .sections;
-					.img-container{
-					margin-left: 4vw;
-					padding-top: 10px;
-						padding-bottom: 10px;
-					img{
-						width: 192px;
-					}
-					}
-				.line{
-					width: 95%;
-				}
-            }
-            .fourth{
-				display: flex;
-				justify-content: space-between;
-				align-items: center;
-                @extend .sections;
-				.img-container{
-					margin-left: 4vw;
-					padding-top: 10px;
-						padding-bottom: 10px;
-					img{
-						width: 225px;
-						
-					}
-				}
-                
-            }
+            // .second{
+            //     @extend .sections;
+            // }
+            // .third{
+            //     @extend .sections;
+            // }
+            // .fourth{
+            //     @extend .sections;
+            // }
         }
-	
 //лютые бинды, для уменьшения размера кода
     ul{
         text-align: left;
@@ -239,28 +170,23 @@ main {
         li{
             
             font-size: 2.5vh;
-            list-style-type: circle;
-			margin-left: 30px;
+            list-style-type: none;
         }
 
     }
     .line{
         display: block;
-		margin: 0 auto;
         background-color: black;
         height: 3px;
-      
-        width: 90%;
+        margin-top: 10px;
+        margin-right: 2%;
+
+        width: 100%;
 
     }
-	.cost{
-		text-align: center;
-		font-size: 32px;
-		.little{
-			font-size: 20px;
-		}
-	}
-   
+    .little{
+        font-size: 2.5vh;
+    }
 }
 
 footer{
@@ -268,7 +194,6 @@ footer{
 	box-shadow: 0px 5px 5px grey;
 	.container{
 		display: flex;
-        flex-wrap: wrap;
 		justify-content: space-between;
 		background-color: #FFFFFF;
 		align-items: center;

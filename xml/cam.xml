@@ -1,89 +1,91 @@
-<sony>
-<img>
+<cams>
+<cam>
+<img_cam>
 ..images/A7_4.jpg
-</img>
+</img_cam>
 <name>ПОЛНОКАДРОВАЯ  КАМЕРА SONY ALPHA A7 IV</name>
 <cost>7599<little>руб.</little> 00<little>коп.</little></cost>
-<ul>
-<li>
-15 ступеней динамического диапазона
-</li>
-<li>
-видео 4K 60p с кадрированием Super35
-</li>
-<li>
-поддержка 10-битного S-Log3, 10-битная внутренняя запись 4: 2: 2
-</li>
-<li>
-автофокусировка по глазам и слежение в реальном времени
-</li>
-</ul>
-</sony>
 
-<lumix>
-<img>
+<info1>
+15 ступеней динамического диапазона
+</info1>
+<info2>
+видео 4K 60p с кадрированием Super35
+</info2>
+<info3>
+поддержка 10-битного S-Log3, 10-битная внутренняя запись 4: 2: 2
+</info3>
+<info4>
+автофокусировка по глазам и слежение в реальном времени
+</info4>
+
+</cam>
+
+<cam>
+<img_cam>
 ..images/panasonic.jpg
-</img>
+</img_cam>
 <name>ФОТОАППАРАТ PANASONIC LUMIX DC-S1H</name>
 <cost>11690<little>руб.</little> 00<little>коп.</little></cost>
-<ul>
-<li>
-широкий динамический диапазон 14+ стопов
-</li>
-<li>
-сенсор 24.2MP c технологией Dual Native ISO
-</li>
-<li>
-прочный корпус из магниевого сплава
-</li>
-<li>
-наклонный экран с большими углами обзора
-</li>
-</ul>
-</lumix>
 
-<gopro>
-<img>
+<info1>
+широкий динамический диапазон 14+ стопов
+</info1>
+<info2>
+сенсор 24.2MP c технологией Dual Native ISO
+</info2>
+<info3>
+прочный корпус из магниевого сплава
+</info3>
+<info4>
+наклонный экран с большими углами обзора
+</info4>
+
+</cam>
+
+<cam>
+<img_cam>
 ..images/goPro.jpg
-</img>
+</img_cam>
 <name>ЭКШН-КАМЕРА GOPRO MAX 360</name>
 <cost>1729<little>руб.</little> 90<little>коп.</little></cost>
-<ul>
-<li>
+
+<info1>
 cферическая видеосъемка в формате 5.6K
-</li>
-<li>
+</info1>
+<info2>
 cенсорный экран
-</li>
-<li>
+</info2>
+<info3>
 водонепроницаемость до 5 метров
-</li>
-<li>
+</info3>
+<info4>
 поддержка GPS, Wi-Fi + Bluetooth
-</li>
+</info4>
 
-</ul>
-</gopro>
 
-<kit>
-<img>
+</cam>
+
+<cam>
+<img_cam>
 ..images/A6400.jpg
-</img>
+</img_cam>
 <name>ФОТОАППАРАТ SONY A6400 KIT 16-50MM</name>
 <cost>3290<little>руб.</little> 00<little>коп.</little></cost>
-<ul>
-<li>
-cерийная съемка до 11 кадров/сек.
-</li>
-<li>
-электронный видоискатель 1,0 см (тип 0.39)
-</li>
-<li>
-24.2 МП Exmor CMOS-матрица
-</li>
-<li>
-шумоподавление на длинных выдержках
-</li>
 
-</ul>
-</kit>
+<info1>
+cерийная съемка до 11 кадров/сек.
+</info1>
+<info2>
+электронный видоискатель 1,0 см (тип 0.39)
+</info2>
+<info2>
+24.2 МП Exmor CMOS-матрица
+</info2>
+<info3>
+шумоподавление на длинных выдержках
+</info3>
+
+
+</cam>
+</cams>

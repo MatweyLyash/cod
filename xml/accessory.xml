@@ -1,75 +1,77 @@
-<tripod>
-<img>
+<accessorys>
+<acces>
+<img_acces>
 ..images/stativ.jpg
-</img>
+</img_acces>
 <name>Штатив Yunteng VCT-690RM</name>
 <cost>179<little>руб.</little> 00<little>коп.</little></cost>
-<ul>
-<li>
-для фотоаппаратов, видеокамер большого веса
-</li>
-<li>
-3D головка с пузырьковым уровнем
-</li>
-<li>
-угол поворота 360⁰
-</li>
-</ul>
-</tripod>
 
-<stand>
-<img>
+<info1>
+для фотоаппаратов, видеокамер большого веса
+</info1>
+<info2>
+3D головка с пузырьковым уровнем
+</info2>
+<info3>
+угол поворота 360⁰
+</info3>
+
+</acces>
+
+<acces>
+<img_acces>
 ..images/stoika.jpg
-</img>
+</img_acces>
 <name>Стойка микрофонная Bespeco MSRA10</name>
 <cost>210<little>руб.</little> 00<little>коп.</little></cost>
-<ul>
-<li>
-максимальная высота 100см
-</li>
-<li>
-устройчивость к высоким нагрузкам
-</li>
-<li>
-5-метровый XLR кабель в комплекте
-</li>
-</ul>
-</stand>
 
-<napkin>
-<img>
+<info1>
+максимальная высота 100см
+</info1>
+<info2>
+устройчивость к высоким нагрузкам
+</info2>
+<info3>
+5-метровый XLR кабель в комплекте
+</info3>
+
+</acces>
+
+<acces>
+<img_acces>
 ..images/salfetka.jpg
-</img>
+</img_acces>
 <name>Салфетка из микрофибры Fujimi</name>
 <cost>6<little>руб.</little> 00<little>коп.</little></cost>
-<ul>
-<li>
-большой размер 10x10см
-</li>
-<li>
-устойчива к мытью в стиральной машине
-</li>
-<li>
-высококачественная ткань
-</li>
-</ul>
-</napkin>
 
-<bag>
-<img>
+<info1>
+большой размер 10x10см
+</info1>
+<info2>
+устойчива к мытью в стиральной машине
+</info2>
+<info3>
+высококачественная ткань
+</info3>
+
+</acces>
+
+<acces>
+<img_acces>
 ..images/case.jpg
-</img>
+</img_acces>
 <name>СУМКА ПОЯСНАЯ FOTOKVANT BBN-01 BLUE </name>
 <cost>60<little>руб.</little> 00<little>коп.</little></cost>
-<ul>
-<li>
+
+<info1>
 предусмотрена ручка и наплечный ремень
-</li>
-<li>
+</info1>
+<info2>
 рассчитана на ношение небольшой системной камеры и аксеcсуаров
-</li>
-<li>
+</info2>
+<info3>
 внутри пространство разделено мягкой перегородкой
-</li>
-</ul>
-</bag>
+</info3>
+
+</acces>
+</accessorys>

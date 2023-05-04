@@ -1,79 +1,81 @@
-<canon>
-<img>
+<glass>
+<glas>
+<img_glas>
 ..images/lins.jpg
-</img>
+</img_glas>
 <name>Объектив Canon EF 1-35 f/1.4L II USM</name>
 <cost>1500<little>руб.</little> 00<little>коп.</little></cost>
-<ul>
-<li>
-ультразвуковой привод автофокусировки
-</li>
-<li>
-насыщенный комплекс поставки
-</li>
-<li>
-минимальная дистанция фокусировки составляет 0.28м
-</li>
-</ul>
-</canon>
 
-<tamron>
-<img>
+<info1>
+ультразвуковой привод автофокусировки
+</info1>
+<info2>
+насыщенный комплекс поставки
+</info2>
+<info3>
+минимальная дистанция фокусировки составляет 0.28м
+</info3>
+
+</glas>
+
+<glas>
+<img_glas>
 ..images/tamron28.jpg
-</img>
+</img_glas>
 <name>ОБЪЕКТИВ TAMRON 28-200MM F/2.8-5.6 DI III RXD </name>
 <cost>2399<little>руб.</little> 00<little>коп.</little></cost>
-<ul>
-<li>
-7 лепестков диафрагмы
-</li>
-<li>
-для использования с цифровыми беззеркальными фотоаппаратами
-</li>
-<li>
-система фокусировки с редукторным мотором
-</li>
-</ul>
-</tamron>
 
-<tokina>
-<img>
+<info1>
+7 лепестков диафрагмы
+</info1>
+<info2>
+для использования с цифровыми беззеркальными фотоаппаратами
+</info2>
+<info3>
+система фокусировки с редукторным мотором
+</info3>
+
+</glas>
+
+<glas>
+<img_glas>
 ..images/tokina.png
-</img>
+</img_glas>
 <name>ОБЪЕКТИВ TOKINA OPERA 50MM F1.4 FF AF</name>
 <cost>4249<little>руб.</little> 00<little>коп.</little></cost>
-<ul>
-<li>
+
+<info1>
 автоматический режим фокусировки
-</li>
-<li>
+</info1>
+<info2>
 9 лепестков диафрагмы
-</li>
-<li>
+</info2>
+<info3>
 низкий коэффициент отражаемости
-</li>
+</info3>
 
-</ul>
-</tokina>
 
-<lensbaby>
-<img>
+</glas>
+
+<glas>
+<img_glas>
 ..images/lensbaby.png
-</img>
+</img_glas>
 <name>ОБЪЕКТИВ LENSBABY 5.8MM F/3.5 CIRCULAR</name>
 <cost>1243<little>руб.</little> 00<little>коп.</little></cost>
-<ul>
-<li>
-тип объектива - “Рыбий глаз”
-</li>
-<li>
-6 лепестков диафрагмы
-</li>
-<li>
-высокая светосила
-</li>
 
-</ul>
-</lensbaby>
+<info1>
+тип объектива - “Рыбий глаз”
+</info1>
+<info2>
+6 лепестков диафрагмы
+</info2>
+<info3>
+высокая светосила
+</info3>
+
+
+</glas>
+</glass>
 
 

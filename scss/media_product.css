@@ -1,0 +1,131 @@
+@media (min-width: 1001px) and (max-width: 1200px) {
+  .container {
+    width: auto;
+    background-color: none;
+  }
+  .header .menu-background .logo {
+    background-color: #EDAC3E;
+    height: 10vh;
+  }
+  .header .menu-background .logo .tel {
+    width: 4vw;
+    height: 5vh;
+  }
+  .header-menu nav p {
+    font-size: 20px;
+  }
+  footer .container {
+    justify-content: space-around;
+  }
+}
+@media (max-width: 1000px) {
+  .container {
+    width: auto;
+    background-color: none;
+  }
+  .container .logo {
+    background-color: #EDAC3E;
+    height: 10vh;
+  }
+  .container .logo .tel {
+    width: 4vw;
+    height: 5vh;
+  }
+  nav p {
+    font-size: 24px;
+  }
+  footer .container {
+    justify-content: space-around;
+  }
+}
+@media (max-width: 805px) {
+  .container .logo {
+    height: 18vh;
+  }
+  .container .logo .cam {
+    order: 1;
+  }
+  .container .logo .number {
+    order: 2;
+  }
+  .container .logo .tel {
+    order: 3;
+  }
+  .container .logo .menu__icon.open {
+    background-color: #fff;
+  }
+  .container .logo .menu__icon {
+    margin: -4px 0;
+    order: 4;
+    z-index: 2;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    background-color: #d9d9d9;
+    width: 45px;
+    height: 45px;
+  }
+  .container .logo .menu__icon span {
+    width: 30px;
+    background-color: black;
+    height: 3px;
+    border-radius: 3px;
+    margin-inline: 7px;
+  }
+  .container .logo .search {
+    width: 88%;
+    order: 4;
+  }
+  .header-menu.open {
+    left: 0px;
+  }
+  .header-menu {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    z-index: 10;
+    transition: left 0.5s ease 0s;
+  }
+  .header-menu .container .menu .burger-logo {
+    display: flex !important;
+    flex-flow: row nowrap;
+    padding-top: 15px;
+    padding-left: 20px;
+    width: 100px;
+  }
+  .header-menu .container .menu .burger-logo .burger-cam {
+    width: 50%;
+    height: 50%;
+    padding-right: 10px;
+    padding-top: 1px;
+  }
+  .header-menu .container .menu .burger-logo .burger-fidio {
+    width: 100%;
+    height: 100%;
+  }
+  .header-menu .container .menu .menu__list {
+    display: block;
+    width: 200px;
+  }
+  .header-menu .container .menu .menu__list .menu__link {
+    font-size: 32px;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+  footer .container {
+    flex-flow: row wrap;
+  }
+  footer .container .advice {
+    padding-top: 20px;
+    order: 2;
+  }
+  footer .container .networks {
+    order: 1;
+    text-align: center;
+  }
+  footer .container .fidio {
+    padding-top: 30px;
+    order: 3;
+  }
+}
