@@ -228,11 +228,11 @@ main .container .fourth {
 }
 main .container .fourth .img-container {
   margin-left: 4vw;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
 }
 main .container .fourth .img-container img {
-  width: 225px;
+  width: 150px;
 }
 main ul {
   text-align: left;

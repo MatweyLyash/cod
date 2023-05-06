@@ -505,20 +505,25 @@ footer {
 		}
 
 	}
+	.underground {background-color: #B3B1B1;
+		.container{
+			background-color: #B3B1B1;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-flow: column nowrap;
+		img {
+			
+			
+			width: 40%;
+			height: 10%;
+		}
+	
+		p {
+			text-align: center;
+			color: #00000099;
+		}
+		}
+	}
 }
 
-underground {
-	background-color: #B3B1B1;
-
-	img {
-		display: block;
-		margin: 0 auto;
-		width: 60%;
-		height: 20%;
-	}
-
-	p {
-		text-align: center;
-		color: #00000099;
-	}
-}
