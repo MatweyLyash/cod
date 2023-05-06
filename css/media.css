@@ -89,7 +89,23 @@ footer .container {
   .container .logo .menu__icon.open {
     background-color: #fff;
   }
+  .container .logo .menu__icon.open :nth-child(1) {
+    margin-bottom: -24px;
+    -webkit-transform: rotate(135deg);
+            transform: rotate(135deg);
+  }
+  .container .logo .menu__icon.open :nth-child(2) {
+    opacity: 0;
+    left: -60px;
+  }
+  .container .logo .menu__icon.open :nth-child(3) {
+    margin-top: -24px;
+    -webkit-transform: rotate(-135deg);
+            transform: rotate(-135deg);
+  }
   .container .logo .menu__icon {
+    -webkit-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
     margin: -4px 0;
     -webkit-box-ordinal-group: 5;
         -ms-flex-order: 4;
@@ -111,6 +127,8 @@ footer .container {
     height: 45px;
   }
   .container .logo .menu__icon span {
+    -webkit-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
     width: 30px;
     background-color: black;
     height: 3px;
