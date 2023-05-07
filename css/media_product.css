@@ -41,103 +41,6 @@
   }
 }
 @media (max-width: 805px) {
-  .container .logo {
-    height: 18vh;
-  }
-  .container .logo .cam {
-    -webkit-box-ordinal-group: 2;
-        -ms-flex-order: 1;
-            order: 1;
-  }
-  .container .logo .number {
-    -webkit-box-ordinal-group: 3;
-        -ms-flex-order: 2;
-            order: 2;
-  }
-  .container .logo .tel {
-    -webkit-box-ordinal-group: 4;
-        -ms-flex-order: 3;
-            order: 3;
-  }
-  .container .logo .menu__icon.open {
-    background-color: #fff;
-  }
-  .container .logo .menu__icon {
-    margin: -4px 0;
-    -webkit-box-ordinal-group: 5;
-        -ms-flex-order: 4;
-            order: 4;
-    z-index: 2;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: column wrap;
-            flex-flow: column wrap;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
-    border-radius: 10px;
-    background-color: #d9d9d9;
-    width: 45px;
-    height: 45px;
-  }
-  .container .logo .menu__icon span {
-    width: 30px;
-    background-color: black;
-    height: 3px;
-    border-radius: 3px;
-    margin-inline: 7px;
-  }
-  .container .logo .search {
-    width: 88%;
-    -webkit-box-ordinal-group: 5;
-        -ms-flex-order: 4;
-            order: 4;
-  }
-  .header-menu.open {
-    left: 0px;
-  }
-  .header-menu {
-    position: fixed;
-    top: 0;
-    left: -100%;
-    z-index: 10;
-    -webkit-transition: left 0.5s ease 0s;
-    transition: left 0.5s ease 0s;
-  }
-  .header-menu .container .menu .burger-logo {
-    display: -webkit-box !important;
-    display: -ms-flexbox !important;
-    display: flex !important;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: row nowrap;
-            flex-flow: row nowrap;
-    padding-top: 15px;
-    padding-left: 20px;
-    width: 100px;
-  }
-  .header-menu .container .menu .burger-logo .burger-cam {
-    width: 50%;
-    height: 50%;
-    padding-right: 10px;
-    padding-top: 1px;
-  }
-  .header-menu .container .menu .burger-logo .burger-fidio {
-    width: 100%;
-    height: 100%;
-  }
-  .header-menu .container .menu .menu__list {
-    display: block;
-    width: 200px;
-  }
-  .header-menu .container .menu .menu__list .menu__link {
-    font-size: 32px;
-    padding-left: 20px;
-    padding-top: 20px;
-  }
   footer .container {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -161,5 +64,58 @@
     -webkit-box-ordinal-group: 4;
         -ms-flex-order: 3;
             order: 3;
+  }
+}
+@media (max-width: 500px) {
+  .card-basis, main .container .fourth, main .container .third, main .container .second, main .container .first {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .card-basis .img-container, main .container .fourth .img-container, main .container .third .img-container, main .container .second .img-container, main .container .first .img-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-left: 0;
+    margin: 0 auto;
+  }
+  .card-basis .img-container a img, main .container .fourth .img-container a img, main .container .third .img-container a img, main .container .second .img-container a img, main .container .first .img-container a img {
+    margin-left: 0;
+    margin: 0 auto;
+    width: 150px;
+  }
+  .card-basis .card, main .container .fourth .card, main .container .third .card, main .container .second .card, main .container .first .card {
+    padding-right: 0;
+    width: 90%;
+    padding-bottom: 10px;
+  }
+  .card-basis .card .name, main .container .fourth .card .name, main .container .third .card .name, main .container .second .card .name, main .container .first .card .name {
+    margin-top: 0;
+  }
+  main .container .second .img-container a img {
+    margin-left: 0;
+    margin: 0 auto;
+    width: 150px;
+  }
+  main .container .second .card {
+    padding-right: 0;
+    width: 90%;
+    padding-bottom: 10px;
+  }
+  main .container .second .card .name {
+    margin-top: 0;
   }
 }

@@ -67,9 +67,6 @@ header .logo .number {
   text-decoration: none;
   color: black;
 }
-header .logo .menu__icon {
-  display: none;
-}
 header .logo .tel {
   width: 5vw;
   height: 6vh;
