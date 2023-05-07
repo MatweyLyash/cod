@@ -1,6 +1,6 @@
 <ears>
 <ear>
-<img_ear>../images/HPH.jpg</img_ear>
+<img_ear>images/HPH.jpg</img_ear>
 <way>../ears_1.html</way>
 <name>Наушники Yamaha HPH-MT7W</name>
 <rub>1035</rub>
@@ -14,7 +14,7 @@
 </ear>
 
 <ear>
-<img_ear>../images/DT.png</img_ear>
+<img_ear>images/DT.png</img_ear>
 <way>../ears_2.html</way>
 <name>Наушники Beyerdynamic DT 770 Pro</name>
 <rub>691</rub>
@@ -26,7 +26,7 @@
 
 </ear>
 <ear>
-<img_ear>../images/HD-25.jpg</img_ear>
+<img_ear>images/HD-25.jpg</img_ear>
 <way>../ears_3.html</way>
 <name>Наушники для DJ Sennheiser HD 25</name>
 
@@ -39,7 +39,7 @@
 
 </ear>
 <ear>
-<img_ear>../images/AKG.jpg</img_ear>
+<img_ear>images/AKG.jpg</img_ear>
 <way>../ears_4.html</way>
 <name>Мониторные Наушники AKG K 702</name>
 <rub>1627</rub>
