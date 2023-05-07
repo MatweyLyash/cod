@@ -37,16 +37,18 @@ let table = (arr_tag, arr) => {
   
               `<div class="first">
               <div class="space"></div>
+              <div class"img-container">
               <a href="${way_arr[i]}"><img src="${img_ear_arr[i]}" alt=""></a>
+              </div>
               <div class="card">
-                  <p>${name_arr[i]}</p>
+                  <p class="name">${name_arr[i]}</p>
                   <span class="line"></span>
-                  <p>${rub_arr[i]} руб. ${cop_arr[i]} коп.</p>
-                  <ul>
-                      <li>${info1_arr[i]}</li>
-                      <li>${info2_arr[i]}</li>
-                      <li>${info3_arr[i]}</li>
-                      <li>${info4_arr[i]}</li>
+                  <p class="cost"> ${rub_arr[i]}<span class="little">руб.</span> ${cop_arr[i]}<span class="little">коп.</span></p>
+                  <ul class"more">
+                      <li class="info">${info1_arr[i]}</li>
+                      <li class="info">${info2_arr[i]}</li>
+                      <li class="info">${info3_arr[i]}</li>
+                      <li class="info">${info4_arr[i]}</li>
                   </ul>
               </div>
               <div class="space"></div>
@@ -58,7 +60,7 @@ let table = (arr_tag, arr) => {
   
     async function parseXML() {
       
-      let a = await fetch('/xml/ear.xml');
+      let a = await fetch('xml/ear.xml');
       let xmlString = await a.text();
       parser(xmlString);
   

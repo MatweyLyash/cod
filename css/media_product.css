@@ -35,6 +35,9 @@
   nav p {
     font-size: 24px;
   }
+  main .ears .first {
+    height: auto;
+  }
   footer .container {
     -ms-flex-pack: distribute;
         justify-content: space-around;

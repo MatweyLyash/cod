@@ -71,6 +71,13 @@
         font-size: 24px;  
         }
     }
+    main{
+        .ears{
+            .first{
+                height: auto;
+            }
+        }
+    }
     footer
     {
         .container
@@ -138,6 +145,7 @@
     main{
         .container{
             .first{
+                
               @extend .card-basis;
             }
             .second{
