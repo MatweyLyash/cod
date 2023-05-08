@@ -1,80 +1,46 @@
 <glass>
 <glas>
-<img_glas>
-..images/lins.jpg
-</img_glas>
+<img_glas>images/lins.png</img_glas>
+<way>glas_1.html </way>
 <name>Объектив Canon EF 1-35 f/1.4L II USM</name>
-<cost>1500<little>руб.</little> 00<little>коп.</little></cost>
-
-<info1>
-ультразвуковой привод автофокусировки
-</info1>
-<info2>
-насыщенный комплекс поставки
-</info2>
-<info3>
-минимальная дистанция фокусировки составляет 0.28м
-</info3>
-
+<rub>1500</rub>
+<cop>00</cop>
+<info1>ультразвуковой привод автофокусировки</info1>
+<info2>насыщенный комплекс поставки</info2>
+<info3>минимальная дистанция фокусировки составляет 0.28м</info3>
 </glas>
 
 <glas>
-<img_glas>
-..images/tamron28.jpg
-</img_glas>
+<img_glas>images/tamron28.jpg</img_glas>
+<way>glas_2.html </way>
 <name>ОБЪЕКТИВ TAMRON 28-200MM F/2.8-5.6 DI III RXD </name>
-<cost>2399<little>руб.</little> 00<little>коп.</little></cost>
-
-<info1>
-7 лепестков диафрагмы
-</info1>
-<info2>
-для использования с цифровыми беззеркальными фотоаппаратами
-</info2>
-<info3>
-система фокусировки с редукторным мотором
-</info3>
-
+<rub>2399</rub>
+<cop>00</cop>
+<info1>7 лепестков диафрагмы</info1>
+<info2>для использования с цифровыми беззеркальными фотоаппаратами</info2>
+<info3>система фокусировки с редукторным мотором</info3>
 </glas>
 
 <glas>
-<img_glas>
-..images/tokina.png
-</img_glas>
+<img_glas>images/tokina.png</img_glas>
+<way>glas_3.html </way>
 <name>ОБЪЕКТИВ TOKINA OPERA 50MM F1.4 FF AF</name>
-<cost>4249<little>руб.</little> 00<little>коп.</little></cost>
-
-<info1>
-автоматический режим фокусировки
-</info1>
-<info2>
-9 лепестков диафрагмы
-</info2>
-<info3>
-низкий коэффициент отражаемости
-</info3>
-
-
+<rub>4249</rub>
+<cop>00</cop>
+<info1>автоматический режим фокусировки</info1>
+<info2>9 лепестков диафрагмы</info2>
+<info3>низкий коэффициент отражаемости</info3>
 </glas>
 
 <glas>
-<img_glas>
-..images/lensbaby.png
-</img_glas>
+<img_glas>images/lensbaby.png</img_glas>
+<way>glas_4.html </way>
 <name>ОБЪЕКТИВ LENSBABY 5.8MM F/3.5 CIRCULAR</name>
-<cost>1243<little>руб.</little> 00<little>коп.</little></cost>
-
-<info1>
-тип объектива - “Рыбий глаз”
-</info1>
-<info2>
-6 лепестков диафрагмы
-</info2>
-<info3>
-высокая светосила
-</info3>
-
-
+<rub>1243</rub>
+<cop>00</cop>
+<info1>тип объектива - “Рыбий глаз”</info1>
+<info2>6 лепестков диафрагмы</info2>
+<info3>высокая светосила</info3>
 </glas>
 </glass>
 

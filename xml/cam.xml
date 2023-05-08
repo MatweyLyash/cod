@@ -1,91 +1,51 @@
 <cams>
 <cam>
-<img_cam>
-..images/A7_4.jpg
-</img_cam>
+<img_cam>images/A7_4.jpg</img_cam>
+<way>cam_1.html </way>
 <name>ПОЛНОКАДРОВАЯ  КАМЕРА SONY ALPHA A7 IV</name>
-<cost>7599<little>руб.</little> 00<little>коп.</little></cost>
-
-<info1>
-15 ступеней динамического диапазона
-</info1>
-<info2>
-видео 4K 60p с кадрированием Super35
-</info2>
-<info3>
-поддержка 10-битного S-Log3, 10-битная внутренняя запись 4: 2: 2
-</info3>
-<info4>
-автофокусировка по глазам и слежение в реальном времени
-</info4>
-
+<rub>7599</rub>
+ <cop>00</cop>
+<info1>15 ступеней динамического диапазона</info1>
+<info2>видео 4K 60p с кадрированием Super35</info2>
+<info3>поддержка 10-битного S-Log3, 10-битная внутренняя запись 4: 2: 2</info3>
+<info4>автофокусировка по глазам и слежение в реальном времени</info4>
 </cam>
 
 <cam>
-<img_cam>
-..images/panasonic.jpg
-</img_cam>
+<img_cam>images/panasonic.jpg</img_cam>
+<way>cam_2.html </way>
 <name>ФОТОАППАРАТ PANASONIC LUMIX DC-S1H</name>
-<cost>11690<little>руб.</little> 00<little>коп.</little></cost>
-
-<info1>
-широкий динамический диапазон 14+ стопов
-</info1>
-<info2>
-сенсор 24.2MP c технологией Dual Native ISO
-</info2>
-<info3>
-прочный корпус из магниевого сплава
-</info3>
-<info4>
-наклонный экран с большими углами обзора
-</info4>
-
+<rub>11690</rub>
+<cop>00</cop>
+<info1>широкий динамический диапазон 14+ стопов</info1>
+<info2>сенсор 24.2MP c технологией Dual Native ISO</info2>
+<info3>прочный корпус из магниевого сплава</info3>
+<info4>наклонный экран с большими углами обзора</info4>
 </cam>
 
 <cam>
-<img_cam>
-..images/goPro.jpg
-</img_cam>
+<img_cam>images/goPro.jpg</img_cam>
+<way>cam_3.html </way>
 <name>ЭКШН-КАМЕРА GOPRO MAX 360</name>
-<cost>1729<little>руб.</little> 90<little>коп.</little></cost>
-
-<info1>
-cферическая видеосъемка в формате 5.6K
-</info1>
-<info2>
-cенсорный экран
-</info2>
-<info3>
-водонепроницаемость до 5 метров
-</info3>
-<info4>
-поддержка GPS, Wi-Fi + Bluetooth
-</info4>
+<rub>1720</rub>
+<cop>90</cop>
+<info1>cферическая видеосъемка в формате 5.6K</info1>
+<info2>cенсорный экран</info2>
+<info3>водонепроницаемость до 5 метров</info3>
+<info4>поддержка GPS, Wi-Fi + Bluetooth</info4>
 
 
 </cam>
 
 <cam>
-<img_cam>
-..images/A6400.jpg
-</img_cam>
+<img_cam>images/A6400.jpg</img_cam>
+<way>cam_4.html </way>
 <name>ФОТОАППАРАТ SONY A6400 KIT 16-50MM</name>
-<cost>3290<little>руб.</little> 00<little>коп.</little></cost>
-
-<info1>
-cерийная съемка до 11 кадров/сек.
-</info1>
-<info2>
-электронный видоискатель 1,0 см (тип 0.39)
-</info2>
-<info2>
-24.2 МП Exmor CMOS-матрица
-</info2>
-<info3>
-шумоподавление на длинных выдержках
-</info3>
-
-
+<rub>3290</rub>
+ <cop>00</cop>
+<info1>cерийная съемка до 11 кадров/сек.</info1>
+<info2>электронный видоискатель 1,0 см (тип 0.39)</info2>
+<info2>24.2 МП Exmor CMOS-матрица</info2>
+<info3>шумоподавление на длинных выдержках</info3>
 </cam>
 </cams>

@@ -297,17 +297,30 @@ footer .container .advice button {
   border-radius: 30px;
   font-size: 24px;
 }
-
-underground {
+footer .underground {
   background-color: #B3B1B1;
 }
-underground img {
-  display: block;
-  margin: 0 auto;
-  width: 60%;
-  height: 20%;
+footer .underground .container {
+  background-color: #B3B1B1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
 }
-underground p {
+footer .underground .container img {
+  width: 40%;
+  height: 10%;
+}
+footer .underground .container p {
   text-align: center;
   color: rgba(0, 0, 0, 0.6);
 }

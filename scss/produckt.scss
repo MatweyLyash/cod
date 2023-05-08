@@ -258,33 +258,37 @@ main {
    
 }
 
-footer{
+footer {
 	background-color: #FFFFFF;
 	box-shadow: 0px 5px 5px grey;
-	.container{
+
+	.container {
 		display: flex;
-        flex-wrap: wrap;
+		
+		flex-wrap: wrap ;
 		justify-content: space-between;
 		background-color: #FFFFFF;
 		align-items: center;
-		.networks{
-			.badge{
-			
-			
-				img{
+
+		.networks {
+			.badge {
+				img {
 					width: 60px;
 					height: 60px;
 				}
-				.size{
+
+				.size {
 					width: 67px;
 					height: 67px;
 				}
 			}
-			
+
 		}
-		P{
+
+		P {
 			font-size: 2.6vh;
 		}
+
 		.advice {
 			
 			text-align: center;
@@ -298,19 +302,27 @@ footer{
 				font-size: 24px;
 			}
 		}
-		
+
+	}
+	.underground {background-color: #B3B1B1;
+		.container{
+			background-color: #B3B1B1;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-flow: column nowrap;
+		img {
+			
+			
+			width: 40%;
+			height: 10%;
+		}
+	
+		p {
+			text-align: center;
+			color: #00000099;
+		}
+		}
 	}
 }
-underground{
-	background-color: #B3B1B1;
-	img{
-		display: block;
-		margin: 0 auto;
-	width: 60%;
-	height: 20%;
-}
-	p{
-		text-align: center;
-		color: #00000099;
-	}
-}
+

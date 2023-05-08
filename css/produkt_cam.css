@@ -82,6 +82,7 @@ header .header-menu nav .menu__body {
   width: 100%;
 }
 header .header-menu nav .menu__body .menu__list {
+  margin-top: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -114,47 +115,55 @@ header .header-menu nav .menu__body .menu__list .menu__link:hover {
   border-radius: 30px;
 }
 
-.sections, main .cam .first {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 6% 17% 75% 2%;
-  grid-template-columns: 6% 17% 75% 2%;
+main .stuff {
+  background-color: white;
+  padding-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+main .stuff .first {
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 0 auto;
   border: 4px solid #EDAC3E;
   border-radius: 30px;
   width: 95%;
+  margin-bottom: 20px;
+  gap: 5%;
 }
-.sections img, main .cam .first img {
-  height: 35vh;
+main .stuff .first img {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  max-width: 200px;
+}
+main .stuff .first .card {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 80%;
+          flex: 1 1 80%;
   margin: 0 auto;
+  padding-right: 20px;
+  padding-bottom: 10px;
 }
-.sections .card, main .cam .first .card {
-  margin: 0 auto;
-}
-.sections .card p, main .cam .first .card p {
+main .stuff .first .card .name {
   text-align: center;
   margin-top: 20px;
   font-size: 3.6vh;
 }
-
-main .cam {
-  background-color: white;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-rows: 2px 2% 1fr 2% 1fr 2% 1fr 2% 1fr 2% 120px;
-  grid-template-rows: 2px 1fr 1fr 1fr 1fr 120px;
-  grid-gap: 2%;
-}
-main ul {
-  text-align: left;
-  margin: 0 auto;
-  margin-top: 30px;
-}
-main ul li {
-  font-size: 2.5vh;
-  list-style-type: none;
-}
-main .line {
+main .stuff .first .card .line {
   display: block;
   background-color: black;
   height: 3px;
@@ -162,8 +171,23 @@ main .line {
   margin-right: 2%;
   width: 100%;
 }
-main .little {
-  font-size: 2.5vh;
+main .info {
+  font-size: 21px;
+  list-style-type: circle;
+  margin-left: 30px;
+}
+main .cost {
+  text-align: center;
+  font-size: 32px;
+}
+main .cost .little {
+  font-size: 20px;
+}
+
+.more {
+  text-align: left;
+  margin: 0 auto;
+  margin-top: 30px;
 }
 
 footer {
@@ -175,6 +199,8 @@ footer .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -205,17 +231,30 @@ footer .container .advice button {
   border-radius: 30px;
   font-size: 24px;
 }
-
-underground {
+footer .underground {
   background-color: #B3B1B1;
 }
-underground img {
-  display: block;
-  margin: 0 auto;
-  width: 60%;
-  height: 20%;
+footer .underground .container {
+  background-color: #B3B1B1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
 }
-underground p {
+footer .underground .container img {
+  width: 40%;
+  height: 10%;
+}
+footer .underground .container p {
   text-align: center;
   color: rgba(0, 0, 0, 0.6);
 }

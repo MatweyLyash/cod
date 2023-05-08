@@ -1,77 +1,51 @@
 <accessorys>
 <acces>
-<img_acces>
-..images/stativ.jpg
-</img_acces>
+<img_acces>images/stativ.jpg</img_acces>
+<way>acces_1.html </way>
 <name>Штатив Yunteng VCT-690RM</name>
-<cost>179<little>руб.</little> 00<little>коп.</little></cost>
-
-<info1>
-для фотоаппаратов, видеокамер большого веса
-</info1>
-<info2>
-3D головка с пузырьковым уровнем
-</info2>
-<info3>
-угол поворота 360⁰
-</info3>
+<rub>179</rub>
+<cop>00</cop>
+<info1>для фотоаппаратов, видеокамер большого веса</info1>
+<info2>3D головка с пузырьковым уровнем</info2>
+<info3>угол поворота 360⁰</info3>
 
 </acces>
 
 <acces>
-<img_acces>
-..images/stoika.jpg
-</img_acces>
+<img_acces>images/stoika.jpg</img_acces>
+<way>acces_2.html </way>
 <name>Стойка микрофонная Bespeco MSRA10</name>
-<cost>210<little>руб.</little> 00<little>коп.</little></cost>
 
-<info1>
-максимальная высота 100см
-</info1>
-<info2>
-устройчивость к высоким нагрузкам
-</info2>
-<info3>
-5-метровый XLR кабель в комплекте
-</info3>
+<rub>210</rub>
+<cop>00</cop>
+<info1>максимальная высота 100см</info1>
+<info2>устройчивость к высоким нагрузкам</info2>
+<info3>5-метровый XLR кабель в комплекте</info3>
 
 </acces>
 
 <acces>
-<img_acces>
-..images/salfetka.jpg
-</img_acces>
+<img_acces>images/salfetka.jpg</img_acces>
+<way>acces_3.html </way>
 <name>Салфетка из микрофибры Fujimi</name>
-<cost>6<little>руб.</little> 00<little>коп.</little></cost>
+<rub>6</rub>
+<cop>00</cop>
 
-<info1>
-большой размер 10x10см
-</info1>
-<info2>
-устойчива к мытью в стиральной машине
-</info2>
-<info3>
-высококачественная ткань
-</info3>
+<info1>большой размер 10x10см</info1>
+<info2>устойчива к мытью в стиральной машине</info2>
+<info3>высококачественная ткань</info3>
 
 </acces>
 
 <acces>
-<img_acces>
-..images/case.jpg
-</img_acces>
+<img_acces>images/case.jpg</img_acces>
+<way>acces_4.html </way>
 <name>СУМКА ПОЯСНАЯ FOTOKVANT BBN-01 BLUE </name>
-<cost>60<little>руб.</little> 00<little>коп.</little></cost>
-
-<info1>
-предусмотрена ручка и наплечный ремень
-</info1>
-<info2>
-рассчитана на ношение небольшой системной камеры и аксеcсуаров
-</info2>
-<info3>
-внутри пространство разделено мягкой перегородкой
-</info3>
+<rub>60</rub>
+<cop>00</cop>
+<info1>предусмотрена ручка и наплечный ремень</info1>
+<info2>рассчитана на ношение небольшой системной камеры и аксеcсуаров</info2>
+<info3>внутри пространство разделено мягкой перегородкой</info3>
 
 </acces>
 </accessorys>
