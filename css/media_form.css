@@ -1,0 +1,43 @@
+@media (max-width: 815px) {
+  main .container form .active {
+    font-size: 48px;
+  }
+  main .container form .discription {
+    font-size: 32px;
+  }
+  main .container form .input input {
+    margin-bottom: 20px;
+  }
+  main .container .comment .active {
+    font-size: 48px;
+  }
+  footer .container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  footer .container .advice {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-inline: 20px;
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+  }
+  footer .container .networks {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    text-align: center;
+  }
+  footer .container .fidio {
+    padding-top: 30px;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+}

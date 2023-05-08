@@ -1,0 +1,52 @@
+@media(max-width:815px)
+{
+
+main{
+    .container{
+        form{
+            .active{
+                font-size: 48px;
+            }
+            .discription{
+                font-size: 32px;
+            }
+            .input{
+                input{
+                    margin-bottom: 20px;
+                }
+            }
+        }
+        .comment
+        {
+            .active{
+                font-size: 48px;
+
+            }
+        }
+    }
+}
+
+
+    footer{
+        .container
+        {
+            flex-flow: row wrap;
+            justify-content: space-evenly;
+            .advice{
+                padding-top: 20px;
+                padding-bottom: 20px;
+                margin-inline: 20px;
+                order: 3;
+            }
+            .networks{
+                 order: 1;
+                 text-align: center;
+            }
+            .fidio{
+                padding-top: 30px;
+                 order: 2;
+            }
+        }
+       
+    }
+}
