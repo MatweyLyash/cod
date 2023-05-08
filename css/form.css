@@ -344,9 +344,8 @@ footer .container {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   background-color: #FFFFFF;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -362,17 +361,6 @@ footer .container .networks .badge .size {
 }
 footer .container P {
   font-size: 2.6vh;
-}
-footer .container .advice {
-  text-align: center;
-}
-footer .container .advice button {
-  margin-top: 10px;
-  background-color: #EDAC3E;
-  width: 100%;
-  height: 50px;
-  border-radius: 30px;
-  font-size: 24px;
 }
 footer .underground {
   background-color: #B3B1B1;

@@ -15,9 +15,18 @@
     height: 230px;
     padding-left: 20px;
   }
+  main .container .stuff .img-ears {
+    height: 200px;
+    width: 200px;
+  }
   main .container .stuff .disc {
     padding-left: 20px;
     width: auto;
+  }
+  main .container .stuff .disc .buy {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
   }
   main .container .stuff .disc .buy .cost {
     padding-bottom: 10px;
@@ -64,6 +73,9 @@
         -ms-flex-pack: center;
             justify-content: center;
   }
+  main .container .stuff .img-ears {
+    width: 250px;
+  }
   main .container .stuff .disc {
     padding: 0;
     padding-left: 10px;
@@ -82,11 +94,13 @@
             align-items: center;
   }
   main .container .stuff .disc .buy button {
-    width: 80%;
     margin-bottom: 10px;
   }
   main .container .stuff .disc ul {
     padding-bottom: 10px;
+  }
+  main section .second-disc td:nth-child(even) {
+    padding-left: 0 !important;
   }
   main section h1 {
     font-size: 24px;

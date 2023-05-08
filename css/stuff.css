@@ -251,6 +251,7 @@ main .container .caption {
   padding: 20px 0 20px 3%;
 }
 main .container .stuff {
+  min-height: 357px;
   margin: 0 auto;
   width: 95%;
   border-radius: 30px;
@@ -265,6 +266,14 @@ main .container .stuff {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+}
+main .container .stuff .img-ears {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  height: 300px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 main .container .disc {
   width: 50%;
@@ -290,6 +299,9 @@ main .container .disc .buy {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 main .container .disc .buy .cost {
   font-size: 48px;
@@ -297,7 +309,10 @@ main .container .disc .buy .cost {
 main .container .disc .buy .cost .little {
   font-size: 20px;
 }
-main .container .disc .buy button {
+main .container .disc .buy a {
+  text-decoration: none;
+}
+main .container .disc .buy a button {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
@@ -315,7 +330,7 @@ main .container .disc .buy button {
   border-radius: 40px;
   font-size: 32px;
 }
-main .container .disc .buy button .basket {
+main .container .disc .buy a button .basket {
   padding: 0;
   width: 40px;
   height: 40px;
@@ -327,6 +342,15 @@ main .container .disc ul li {
   font-size: 24px;
   list-style-type: circle;
 }
+main .container section .line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+  height: 3px;
+  width: 100%;
+  background-color: #EDAC3E;
+}
 main .container section .back-col {
   background-color: #D9D9D9;
 }
@@ -335,7 +359,7 @@ main .container section h1 {
   height: 200%;
   margin: 0 auto;
   font-size: 5vh;
-  margin-top: 25px;
+  margin-top: 10px;
 }
 main .container section table {
   width: 100%;
@@ -346,14 +370,15 @@ main .container section table {
 main .container section table tr {
   padding-top: 2%;
   background-color: #D9D9D9;
-  -webkit-box-shadow: 0px 2px 2px grey;
-          box-shadow: 0px 2px 2px grey;
 }
 main .container section table tr div {
   padding-left: 4%;
 }
 main .container section table tr:nth-child(odd) {
   background-color: white;
+}
+main .container section .second-disc td:nth-child(even) {
+  padding-left: 8%;
 }
 
 footer {

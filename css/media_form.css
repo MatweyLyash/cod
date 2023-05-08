@@ -20,14 +20,6 @@
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
   }
-  footer .container .advice {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-inline: 20px;
-    -webkit-box-ordinal-group: 4;
-        -ms-flex-order: 3;
-            order: 3;
-  }
   footer .container .networks {
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
