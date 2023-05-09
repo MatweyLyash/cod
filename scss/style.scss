@@ -1,4 +1,4 @@
-
+@import 'variables.scss';
 @font-face {
 	font-family: "Calibri_Regular";
 	src: url("../other/Calibri_Regular.ttf");
@@ -234,7 +234,7 @@ main {
 				img {
 					border-radius: 30px;
 					border: 5px solid #EDAC3E;
-					flex: 0 0 70%;
+					// flex: 0 1 70%;
 					width: 90%;
 					max-height: 430px;
 					
