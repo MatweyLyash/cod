@@ -275,6 +275,43 @@ main .container .stuff .img-ears {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+main .container .stuff .img-micro {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  height: 300px;
+}
+main .container .stuff .img-cam {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  height: 300px;
+}
+main .container .stuff .img-glas {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  height: 300px;
+}
+main .container .stuff .img-baby {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 300px;
+  height: 200px;
+}
+main .container .stuff .img-acces {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  height: 300px;
+}
+main .container .stuff .img-salfetka {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  height: 250px;
+}
 main .container .disc {
   width: 50%;
   display: -webkit-box;
@@ -362,6 +399,7 @@ main .container section h1 {
   margin-top: 10px;
 }
 main .container section table {
+  table-layout: fixed;
   width: 100%;
   margin: 0 auto;
   border-spacing: 0;
@@ -376,9 +414,6 @@ main .container section table tr div {
 }
 main .container section table tr:nth-child(odd) {
   background-color: white;
-}
-main .container section .second-disc td:nth-child(even) {
-  padding-left: 8%;
 }
 
 footer {

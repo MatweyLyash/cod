@@ -19,6 +19,28 @@
     height: 200px;
     width: 200px;
   }
+  main .container .stuff .img-cam {
+    height: 200px;
+    width: 200px;
+  }
+  main .container .stuff .img-glas {
+    height: 200px;
+    width: 250px;
+  }
+  main .container .stuff .img-baby {
+    padding-top: 20px;
+    height: 180px;
+  }
+  main .container .stuff .img-acces {
+    padding-top: 20px;
+    height: 200px;
+    width: 200px;
+  }
+  main .container .stuff .img-salfetka {
+    padding-top: 20px;
+    height: 200px;
+    width: 200px;
+  }
   main .container .stuff .disc {
     padding-left: 20px;
     width: auto;

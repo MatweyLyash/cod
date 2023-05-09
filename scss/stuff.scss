@@ -151,6 +151,31 @@ main {
 				padding-top: 10px;
 				padding-bottom: 10px;
 			}
+			.img-micro{
+				align-self: center;
+				height: 300px;
+			}
+			.img-cam{
+				align-self: center;
+				height: 300px;
+			}
+			.img-glas{
+				align-self: center;
+				height: 300px;
+			}
+			.img-baby{
+				align-self: center;
+				width: 300px;
+				height: 200px;
+			}
+			.img-acces{
+				align-self: center;
+				height: 300px;
+			}
+			.img-salfetka{
+				align-self: center;
+				height: 250px;
+			}
         }
         .disc {
           width: 50%;
@@ -238,6 +263,7 @@ main {
                
             }
             table {
+				table-layout: fixed;
                 width: 100%;
                 margin: 0 auto;
 				
@@ -248,7 +274,8 @@ main {
                     background-color: #D9D9D9;
                     // box-shadow: 0px 2px 2px grey;
                     div{
-                        padding-left: 4%;//костыль, позже попробую пофиксить
+                       
+						padding-left: 4%;//костыль, позже попробую пофиксить
                     }
                 }
                 tr:nth-child(odd) {
@@ -256,11 +283,11 @@ main {
 
                 }
             }
-			.second-disc{
-				td:nth-child(even){
-					padding-left: 8%;
-				}
-			}
+			// .second-disc{
+			// 	td:nth-child(even){
+			// 		padding-left: 5%;
+			// 	}
+			// }
         }
     }
 
