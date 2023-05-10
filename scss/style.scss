@@ -1,4 +1,5 @@
 @import 'variables.scss';
+
 @font-face {
 	font-family: "Calibri_Regular";
 	src: url("../other/Calibri_Regular.ttf");
@@ -15,13 +16,24 @@ body {
 	background-color: #B3B1B1;
 
 }
+::-webkit-scrollbar{
 
+	appearance: none;
+	width: 5px;
+}
+::-webkit-scrollbar-thumb{
+	background-color: #B3B1B1;
+	
+	
+}
 .container {
 	margin: 0 auto;
 	max-width: 1200px;
 }
 
-header {	
+
+header {
+
 	// position: static;
 	// z-index: 10;
 	.menu-background {
@@ -30,6 +42,7 @@ header {
 	}
 
 	.logo {
+
 		display: flex;
 		justify-content: space-around;
 		flex-wrap: wrap;
@@ -45,20 +58,105 @@ header {
 			height: 57px;
 		}
 
-		.loop {
-			width: 30px;
-			height: 30px;
-			margin-right: 5%;
-		}
+
 
 		.search {
-			display: flex;
-			justify-content: flex-end;
-			align-items: center;
-			background-color: rgba(224, 224, 224, 0.5);
-			height: 6vh;
 			width: 40%;
-			border-radius: 30px;
+			position: relative;
+			display: flex;
+			flex-direction: column;
+			background-color: rgba(224, 224, 224, 0.5);
+			border-radius: 20px;
+
+			.loop {
+				z-index: 7;
+				position: absolute;
+				right: 15px;
+				top: 5px;
+				width: 30px;
+				height: 30px;
+
+			}
+
+			input {
+				font-size: 20px;
+				z-index: 6;
+				background-color: #916e33;
+				height: 40px;
+				outline: none;
+				
+				border-radius: 15px;
+
+				color: #FFFFFF;
+				text-align: left;
+				padding-left: 1vw;
+			}
+
+			input::placeholder {
+				color: white;
+				font-size: 20px;
+			}
+			// ::-webkit-scrollbar-track{
+			// 	scrollbar-track-color: #916e33;
+			// }
+			.searchResult {
+
+				//всё перелопатить
+				
+				overflow-y: scroll;
+				min-height: 200%;
+				max-height: 700%;
+				padding-top: 10px;
+				margin-top: -15px;
+				position: absolute;
+				top: 28px;
+				font-size: 20px;
+				background-color: #EDAC3E;
+				box-shadow:0px 5px 1px rgba(0, 0, 0, 0.438) ;
+			
+				z-index: 2;
+				display: block;
+
+				.resultList {
+					
+					list-style-type: none;
+
+					li {
+						margin-right: 2%;
+						margin-left: 1vw;
+
+						a {
+
+							color: black;
+							font-size: 24px;
+							text-decoration: none;
+						}
+					}
+
+					span {
+						display: block;
+						width: 95%;
+						height: 3px;
+						background-color: black;
+						margin-bottom: 10px;
+					}
+					p {
+						font-size: 3px;
+						margin-left: 1vw;
+						padding-right: 1vw;
+						padding-bottom: 1vh;
+						color: white;
+					}
+				}
+			}
+
+			p {
+				font-size: 3px;
+				margin-left: 1vw;
+				padding-right: 1vw;
+				padding-bottom: 1vh;
+				color: white;
+			}
 		}
 
 		.number {
@@ -68,8 +166,8 @@ header {
 			color: black;
 
 		}
-		.menu__icon
-		{
+
+		.menu__icon {
 			display: none;
 		}
 
@@ -96,7 +194,8 @@ header {
 						align-items: center;
 						list-style: none;
 						max-width: 100%;
-						.burger-logo{
+
+						.burger-logo {
 							display: none;
 						}
 
@@ -123,80 +222,86 @@ header {
 	}
 }
 
-.img-background
-{
-	
-	
-	.text{
+.img-background {
+
+
+	.text {
 		white-space: nowrap;
 		text-align: center;
 		color: white;
 		font-size: 100px;
 	}
 }
+
 main {
 	height: 100%;
 
-	.slider-box{
+	.slider-box {
 		overflow-x: hidden;
+
 		.container {
 			overflow: hidden;
+
 			.swiper-container {
 				max-width: 100%;
-			
-				
+
+
 				.swiper-wrapper {
-					
+
 					.swiper-slide {
 						max-width: 100%;
 						display: flex;
 						justify-content: center;
 						align-items: center;
-						.text{
+
+						.text {
 							position: absolute;
 							text-align: center;
 							white-space: nowrap;
 							color: white;
 							font-size: 100px;
-						
-						}
-						img{
-							max-width: 100%;
-						}
-						.slide-container-img1
-						{
-							display: flex;
-							align-items: center;
-							justify-content: center;
-							// min-height: 100%;
-							// min-width: 100%;
-							
-							
 
 						}
-						.slide-container-img2{
-							display: flex;
-							align-items: center;
-							justify-content: center;
-							// min-height: 100%;
-							// min-width: 100%;
-					
-							
+
+						img {
+							max-width: 100%;
 						}
-						.slide-container-img3{
+
+						.slide-container-img1 {
 							display: flex;
 							align-items: center;
 							justify-content: center;
 							// min-height: 100%;
 							// min-width: 100%;
-							
-							
+
+
+
+						}
+
+						.slide-container-img2 {
+							display: flex;
+							align-items: center;
+							justify-content: center;
+							// min-height: 100%;
+							// min-width: 100%;
+
+
+						}
+
+						.slide-container-img3 {
+							display: flex;
+							align-items: center;
+							justify-content: center;
+							// min-height: 100%;
+							// min-width: 100%;
+
+
 						}
 					}
 				}
-		  }
+			}
 		}
-		
+
 	}
 
 	.container {
@@ -209,7 +314,7 @@ main {
 			margin: 0 auto;
 			align-items: center;
 			padding-top: 2%;
-			
+
 
 			p {
 				font-size: 7vh;
@@ -228,17 +333,18 @@ main {
 			padding: 3% 5% 3% 5%;
 
 			.sony {
-				
+
 				flex: 1 1 60%;
 				display: flex;
+
 				img {
 					border-radius: 30px;
 					border: 5px solid #EDAC3E;
 					// flex: 0 1 70%;
 					width: 90%;
 					max-height: 430px;
-					
-					
+
+
 				}
 			}
 
@@ -255,19 +361,19 @@ main {
 				border-radius: 30px;
 
 
-				.line{
+				.line {
 					background-color: black;
 					width: 100%;
-					height: 3px;	
-					
-				}
-				
+					height: 3px;
 
-			
+				}
+
+
+
 
 
 				.top {
-					
+
 					display: flex;
 					flex-flow: row nowrap;
 					justify-content: space-between;
@@ -279,7 +385,7 @@ main {
 
 					.img-container {
 						flex: 0 1 30%;
-						
+
 
 						img {
 							width: 110%;
@@ -287,25 +393,28 @@ main {
 							align-self: center;
 						}
 					}
+
 					.cost {
 						flex: 1 1 70%;
 						display: flex;
 						flex-flow: column nowrap;
 						justify-content: center;
 						align-items: center;
-						p{
+
+						p {
 							text-align: center;
 							font-size: 24px;
 
 						}
-						.line{
+
+						.line {
 							width: 80%;
 						}
-						
-						p{
-							.little{
+
+						p {
+							.little {
 								font-size: 20px;
-						}
+							}
 						}
 					}
 				}
@@ -319,16 +428,18 @@ main {
 					margin-bottom: 15px;
 					box-shadow: 0px 5px 5px 0px grey;
 					border-radius: 30px;
+
 					.img-container {
 						flex: 1 1 40%;
 						display: flex;
 						justify-content: space-between;
 						align-items: center;
-						img{
+
+						img {
 							width: 120px;
 							height: 100px;
 						}
-						
+
 					}
 
 					.cost {
@@ -337,17 +448,18 @@ main {
 						flex-flow: column nowrap;
 						justify-content: center;
 						align-items: center;
-						p{
+
+						p {
 							text-align: center;
 							font-size: 24px;
 							white-space: nowrap;
 
 						}
-						
-						p{
-							.little{
+
+						p {
+							.little {
 								font-size: 20px;
-									}
+							}
 						}
 					}
 				}
@@ -360,18 +472,20 @@ main {
 					padding: 15px;
 					box-shadow: 0px 5px 5px 0px grey;
 					border-radius: 30px;
+
 					.img-container {
 						flex: 1 1 40%;
 						display: flex;
 						align-items: center;
 						justify-content: center;
+
 						img {
 							// margin-left: 10px;
 							width: 90px;
 							height: 90px;
 						}
 
-						
+
 					}
 
 					.cost {
@@ -380,20 +494,21 @@ main {
 						flex-flow: column nowrap;
 						justify-content: center;
 						align-items: center;
-						p{
+
+						p {
 							white-space: nowrap;
 							text-align: center;
 							font-size: 24px;
 
 						}
-						
-						p{
-							.little{
+
+						p {
+							.little {
 								font-size: 20px;
-						}
+							}
 						}
 					}
-			}
+				}
 			}
 		}
 
@@ -419,16 +534,16 @@ main {
 			flex-flow: row wrap;
 			justify-content: space-between;
 			padding: 30px;
-			.left
-			{
-				
+
+			.left {
+
 				flex: 1 1 55%;
 				font-size: 24px;
 				margin-right: 15px;
-				
+
 			}
-			.right
-			{
+
+			.right {
 				flex: 1 1 35%;
 				font-size: 24px;
 
@@ -444,8 +559,8 @@ footer {
 
 	.container {
 		display: flex;
-		
-		flex-wrap: wrap ;
+
+		flex-wrap: wrap;
 		justify-content: space-between;
 		background-color: #FFFFFF;
 		align-items: center;
@@ -470,7 +585,7 @@ footer {
 		}
 
 		.advice {
-			
+
 			text-align: center;
 
 			button {
@@ -484,25 +599,28 @@ footer {
 		}
 
 	}
-	.underground {background-color: #B3B1B1;
-		.container{
+
+	.underground {
+		background-color: #B3B1B1;
+
+		.container {
 			background-color: #B3B1B1;
 			display: flex;
 			justify-content: center;
 			align-items: center;
 			flex-flow: column nowrap;
-		img {
-			
-			
-			width: 40%;
-			height: 10%;
-		}
-	
-		p {
-			text-align: center;
-			color: #00000099;
-		}
+
+			img {
+
+
+				width: 40%;
+				height: 10%;
+			}
+
+			p {
+				text-align: center;
+				color: #00000099;
+			}
 		}
 	}
 }
-

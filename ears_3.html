@@ -17,7 +17,11 @@
             <div class="container">
                 <div class="logo">
                     <a href="index.html"><img src="images/cam.svg" class="cam"></a>
-                    <div class="search"> <img src="images/loop.svg" class="loop"></div>
+                    <div class="search"><input type="text" id="searchInput" placeholder="Поиск...">
+                        <img src="images/loop.svg"  class="loop">
+                        <div class="searchResult" style="display: none;">                            
+                        </div>
+                    </div>
                     <a href="tel:+375292564710" class="number">+375(29)256-47-10</a>
                     <div class="menu__icon">
                         <span></span>
@@ -187,5 +191,6 @@
         </div>
     </footer>
 </body>
+<script src="js/search.js"></script>
 <script src="js/script.js"></script>
 </html>

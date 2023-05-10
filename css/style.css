@@ -13,6 +13,16 @@ body {
   background-color: #B3B1B1;
 }
 
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+          appearance: none;
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #B3B1B1;
+}
+
 .container {
   margin: 0 auto;
   max-width: 1200px;
@@ -42,25 +52,105 @@ header .logo img {
   width: 77px;
   height: 57px;
 }
-header .logo .loop {
-  width: 30px;
-  height: 30px;
-  margin-right: 5%;
-}
 header .logo .search {
+  width: 40%;
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   background-color: rgba(224, 224, 224, 0.5);
-  height: 6vh;
-  width: 40%;
-  border-radius: 30px;
+  border-radius: 20px;
+}
+header .logo .search .loop {
+  z-index: 7;
+  position: absolute;
+  right: 15px;
+  top: 5px;
+  width: 30px;
+  height: 30px;
+}
+header .logo .search input {
+  font-size: 20px;
+  z-index: 6;
+  background-color: #916e33;
+  height: 40px;
+  outline: none;
+  border-radius: 15px;
+  color: #FFFFFF;
+  text-align: left;
+  padding-left: 1vw;
+}
+header .logo .search input::-webkit-input-placeholder {
+  color: white;
+  font-size: 20px;
+}
+header .logo .search input::-moz-placeholder {
+  color: white;
+  font-size: 20px;
+}
+header .logo .search input:-ms-input-placeholder {
+  color: white;
+  font-size: 20px;
+}
+header .logo .search input::-ms-input-placeholder {
+  color: white;
+  font-size: 20px;
+}
+header .logo .search input::placeholder {
+  color: white;
+  font-size: 20px;
+}
+header .logo .search .searchResult {
+  overflow-y: scroll;
+  min-height: 200%;
+  max-height: 700%;
+  padding-top: 10px;
+  margin-top: -15px;
+  position: absolute;
+  top: 28px;
+  font-size: 20px;
+  background-color: #EDAC3E;
+  -webkit-box-shadow: 0px 5px 1px rgba(0, 0, 0, 0.438);
+          box-shadow: 0px 5px 1px rgba(0, 0, 0, 0.438);
+  z-index: 2;
+  display: block;
+}
+header .logo .search .searchResult .resultList {
+  list-style-type: none;
+}
+header .logo .search .searchResult .resultList li {
+  margin-right: 2%;
+  margin-left: 1vw;
+}
+header .logo .search .searchResult .resultList li a {
+  color: black;
+  font-size: 24px;
+  text-decoration: none;
+}
+header .logo .search .searchResult .resultList span {
+  display: block;
+  width: 95%;
+  height: 3px;
+  background-color: black;
+  margin-bottom: 10px;
+}
+header .logo .search .searchResult .resultList p {
+  font-size: 3px;
+  margin-left: 1vw;
+  padding-right: 1vw;
+  padding-bottom: 1vh;
+  color: white;
+}
+header .logo .search p {
+  font-size: 3px;
+  margin-left: 1vw;
+  padding-right: 1vw;
+  padding-bottom: 1vh;
+  color: white;
 }
 header .logo .number {
   font-size: 3vh;
