@@ -173,6 +173,9 @@ header .header-menu {
 header .header-menu nav .menu__body {
   width: 100%;
 }
+header .header-menu nav .menu__body .burger-logo {
+  display: none;
+}
 header .header-menu nav .menu__body .menu__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -188,9 +191,6 @@ header .header-menu nav .menu__body .menu__list {
           align-items: center;
   list-style: none;
   max-width: 100%;
-}
-header .header-menu nav .menu__body .menu__list .burger-logo {
-  display: none;
 }
 header .header-menu nav .menu__body .menu__list .menu__link {
   display: block;
@@ -384,7 +384,18 @@ footer .container P {
 footer .container .advice {
   text-align: center;
 }
-footer .container .advice button {
+footer .container .advice .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  color: black;
   margin-top: 10px;
   background-color: #EDAC3E;
   width: 100%;

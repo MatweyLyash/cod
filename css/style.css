@@ -13,16 +13,6 @@ body {
   background-color: #B3B1B1;
 }
 
-::-webkit-scrollbar {
-  -webkit-appearance: none;
-          appearance: none;
-  width: 5px;
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: #B3B1B1;
-}
-
 .container {
   margin: 0 auto;
   max-width: 1200px;
@@ -104,6 +94,14 @@ header .logo .search input::placeholder {
   color: white;
   font-size: 20px;
 }
+header .logo .search .searchResult::-webkit-scrollbar {
+  -webkit-appearance: none;
+          appearance: none;
+  width: 5px;
+}
+header .logo .search .searchResult::-webkit-scrollbar-thumb {
+  background-color: #B3B1B1;
+}
 header .logo .search .searchResult {
   overflow-y: scroll;
   min-height: 200%;
@@ -171,6 +169,9 @@ header .header-menu {
 header .header-menu nav .menu__body {
   width: 100%;
 }
+header .header-menu nav .menu__body .burger-logo {
+  display: none;
+}
 header .header-menu nav .menu__body .menu__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -186,9 +187,6 @@ header .header-menu nav .menu__body .menu__list {
           align-items: center;
   list-style: none;
   max-width: 100%;
-}
-header .header-menu nav .menu__body .menu__list .burger-logo {
-  display: none;
 }
 header .header-menu nav .menu__body .menu__list .menu__link {
   display: block;
@@ -609,7 +607,18 @@ footer .container P {
 footer .container .advice {
   text-align: center;
 }
-footer .container .advice button {
+footer .container .advice .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: black;
+  text-decoration: none;
   margin-top: 10px;
   background-color: #EDAC3E;
   width: 100%;

@@ -54,7 +54,7 @@ function updateSearchResult(results) {
 
 function searchInDictionary(input) {
   let dictionary = {
-    "Микрофон электретный Sennheiser E 865-S": { link: "Sennheiser E 865-S.html", name: "Микрофон электретный Sennheiser E 865-S" },
+    "Микрофон электретный Sennheiser E 865-S": { link: "SennheiserE865-S.html", name: "Микрофон электретный Sennheiser E 865-S" },
     "Микрофон кардиоидный Sennheiser MEG 14-40": { link: "micro_2.html", name: "Микрофон кардиоидный Sennheiser MEG 14-40" },
     "Микрофон динамический Sennheiser E 845-S": { link: "micro_3.html", name: "Микрофон динамический Sennheiser E 845-S" },
     "Микрофон кардиоидный Neumann TLM 102": { link: "micro_4.html", name: "Микрофон кардиоидный Neumann TLM 102" },

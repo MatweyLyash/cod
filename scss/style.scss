@@ -16,16 +16,7 @@ body {
 	background-color: #B3B1B1;
 
 }
-::-webkit-scrollbar{
 
-	appearance: none;
-	width: 5px;
-}
-::-webkit-scrollbar-thumb{
-	background-color: #B3B1B1;
-	
-	
-}
 .container {
 	margin: 0 auto;
 	max-width: 1200px;
@@ -84,7 +75,7 @@ header {
 				background-color: #916e33;
 				height: 40px;
 				outline: none;
-				
+
 				border-radius: 15px;
 
 				color: #FFFFFF;
@@ -96,13 +87,21 @@ header {
 				color: white;
 				font-size: 20px;
 			}
+
 			// ::-webkit-scrollbar-track{
 			// 	scrollbar-track-color: #916e33;
 			// }
-			.searchResult {
+			.searchResult::-webkit-scrollbar {
 
-				//всё перелопатить
-				
+				appearance: none;
+				width: 5px;
+			}
+
+			.searchResult::-webkit-scrollbar-thumb {
+				background-color: #B3B1B1;
+			}
+
+			.searchResult {
 				overflow-y: scroll;
 				min-height: 200%;
 				max-height: 700%;
@@ -112,13 +111,13 @@ header {
 				top: 28px;
 				font-size: 20px;
 				background-color: #EDAC3E;
-				box-shadow:0px 5px 1px rgba(0, 0, 0, 0.438) ;
-			
+				box-shadow: 0px 5px 1px rgba(0, 0, 0, 0.438);
+
 				z-index: 2;
 				display: block;
 
 				.resultList {
-					
+
 					list-style-type: none;
 
 					li {
@@ -140,6 +139,7 @@ header {
 						background-color: black;
 						margin-bottom: 10px;
 					}
+
 					p {
 						font-size: 3px;
 						margin-left: 1vw;
@@ -186,7 +186,9 @@ header {
 			.menu {
 				&__body {
 					width: 100%;
-
+					.burger-logo {
+							display: none;
+						}
 					.menu__list {
 						display: flex;
 						flex-flow: row wrap;
@@ -195,9 +197,7 @@ header {
 						list-style: none;
 						max-width: 100%;
 
-						.burger-logo {
-							display: none;
-						}
+						
 
 						.menu__link {
 							display: block;
@@ -588,7 +588,12 @@ footer {
 
 			text-align: center;
 
-			button {
+			.button {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				color:black;
+				text-decoration: none;
 				margin-top: 10px;
 				background-color: #EDAC3E;
 				width: 100%;
