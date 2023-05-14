@@ -18,6 +18,16 @@ body {
   max-width: 1200px;
 }
 
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+          appearance: none;
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #B3B1B1;
+}
+
 header .menu-background {
   background-color: #EDAC3E;
   width: 100%;
@@ -42,6 +52,11 @@ header .logo img {
   width: 77px;
   height: 57px;
 }
+header .logo .loop {
+  width: 30px;
+  height: 30px;
+  margin-right: 5%;
+}
 header .logo .search {
   width: 40%;
   position: relative;
@@ -58,7 +73,7 @@ header .logo .search {
 header .logo .search .loop {
   z-index: 7;
   position: absolute;
-  right: 40px;
+  right: 15px;
   top: 5px;
   width: 30px;
   height: 30px;
@@ -93,14 +108,6 @@ header .logo .search input::-ms-input-placeholder {
 header .logo .search input::placeholder {
   color: white;
   font-size: 20px;
-}
-header .logo .search .searchResult::-webkit-scrollbar {
-  -webkit-appearance: none;
-          appearance: none;
-  width: 5px;
-}
-header .logo .search .searchResult::-webkit-scrollbar-thumb {
-  background-color: #B3B1B1;
 }
 header .logo .search .searchResult {
   overflow-y: scroll;
@@ -154,9 +161,6 @@ header .logo .number {
   font-size: 3vh;
   text-decoration: none;
   color: black;
-}
-header .logo .menu__icon {
-  display: none;
 }
 header .logo .tel {
   width: 40px;

@@ -21,19 +21,24 @@ body {
 	margin: 0 auto;
 	max-width: 1200px;
 }
+::-webkit-scrollbar{
 
+	appearance: none;
+	width: 5px;
+}
+::-webkit-scrollbar-thumb{
+	background-color: #B3B1B1;
+	
+	
+}
 
 header {
-
-	// position: static;
-	// z-index: 10;
 	.menu-background {
 		background-color: #EDAC3E;
 		width: 100%;
 	}
 
 	.logo {
-
 		display: flex;
 		justify-content: space-around;
 		flex-wrap: wrap;
@@ -49,7 +54,11 @@ header {
 			height: 57px;
 		}
 
-
+		.loop {
+			width: 30px;
+			height: 30px;
+			margin-right: 5%;
+		}
 
 		.search {
 			width: 40%;
@@ -62,7 +71,7 @@ header {
 			.loop {
 				z-index: 7;
 				position: absolute;
-				right: 40px;
+				right: 15px;
 				top: 5px;
 				width: 30px;
 				height: 30px;
@@ -75,7 +84,7 @@ header {
 				background-color: #916e33;
 				height: 40px;
 				outline: none;
-
+				
 				border-radius: 15px;
 
 				color: #FFFFFF;
@@ -87,21 +96,13 @@ header {
 				color: white;
 				font-size: 20px;
 			}
-
 			// ::-webkit-scrollbar-track{
 			// 	scrollbar-track-color: #916e33;
 			// }
-			.searchResult::-webkit-scrollbar {
-
-				appearance: none;
-				width: 5px;
-			}
-
-			.searchResult::-webkit-scrollbar-thumb {
-				background-color: #B3B1B1;
-			}
-
 			.searchResult {
+			
+				//всё перелопатить
+				
 				overflow-y: scroll;
 				min-height: 200%;
 				max-height: 700%;
@@ -111,13 +112,13 @@ header {
 				top: 28px;
 				font-size: 20px;
 				background-color: #EDAC3E;
-				box-shadow: 0px 5px 1px rgba(0, 0, 0, 0.438);
-
+				box-shadow:0px 5px 1px rgba(0, 0, 0, 0.438) ;
+			
 				z-index: 2;
 				display: block;
 
 				.resultList {
-
+					
 					list-style-type: none;
 
 					li {
@@ -139,7 +140,6 @@ header {
 						background-color: black;
 						margin-bottom: 10px;
 					}
-
 					p {
 						font-size: 3px;
 						margin-left: 1vw;
@@ -166,10 +166,7 @@ header {
 			color: black;
 
 		}
-
-		.menu__icon {
-			display: none;
-		}
+	
 
 		.tel {
 			width: 40px;
@@ -177,7 +174,6 @@ header {
 
 		}
 	}
-
 	.header-menu {
 		background-color: $header-menu-back;
 		padding: 15px;
@@ -186,9 +182,9 @@ header {
 			.menu {
 				&__body {
 					width: 100%;
-					.burger-logo {
-							display: none;
-						}
+					.burger-logo{
+						display: none;
+					}
 					.menu__list {
 						display: flex;
 						flex-flow: row wrap;
@@ -196,7 +192,6 @@ header {
 						align-items: center;
 						list-style: none;
 						max-width: 100%;
-
 						
 
 						.menu__link {

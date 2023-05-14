@@ -25,7 +25,7 @@ body {
 
 .container {
   margin: 0 auto;
-  width: 80%;
+  width: 1200px;
 }
 
 header .menu-background {
@@ -166,8 +166,8 @@ header .logo .menu__icon {
   display: none;
 }
 header .logo .tel {
-  width: 5vw;
-  height: 6vh;
+  width: 40px;
+  height: 40px;
 }
 header .header-menu {
   background-color: #D9D9D9;
