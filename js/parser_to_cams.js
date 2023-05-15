@@ -67,12 +67,3 @@ async function parseXML() {
 parseXML();
 
 
-// In products list
-// for (const product in products) {
-//     const url = `/product?id=${product.id}`
-// }
-
-// On product page
-// https://developer.mozilla.org/en-US/docs/Web/API/URL
-// https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams
-// url = new URL(window.location.toString()).searchParams.get("id")
